@@ -1,0 +1,16 @@
+** sch_path: /foss/designs/2026/tt_sky26b_ldo_andriansyah/xschem/error-amplifier/error-amplifier.sch
+.subckt error-amplifier VIN VP VN IBIAS_5uA OUT VSS
+*.PININFO IBIAS_5uA:I VN:I VP:I VIN:B VSS:B OUT:O
+XM1 net2 net2 VSS VSS sky130_fd_pr__nfet_01v8 L=0.6 W=4.2 nf=4 m=1
+XM2 OUT net2 VSS VSS sky130_fd_pr__nfet_01v8 L=0.6 W=4.2 nf=4 m=1
+XM3 net2 VN net1 VDD sky130_fd_pr__pfet_01v8 L=0.6 W=28 nf=4 m=1
+XM4 OUT VP net1 VDD sky130_fd_pr__pfet_01v8 L=0.6 W=28 nf=4 m=1
+XM5 net1 IBIAS_5uA VIN VIN sky130_fd_pr__pfet_01v8 L=0.6 W=6.6 nf=4 m=1
+XM6 IBIAS_5uA IBIAS_5uA VIN VIN sky130_fd_pr__pfet_01v8 L=0.6 W=6.6 nf=4 m=1
+XM7 VDD VDD VDD VDD sky130_fd_pr__pfet_01v8 L=0.6 W=7 nf=1 m=1
+XM8 VSS VSS VSS VSS sky130_fd_pr__nfet_01v8 L=0.6 W=1.05 nf=1 m=1
+XM9 VDD VDD VDD VDD sky130_fd_pr__pfet_01v8 L=0.6 W=1.65 nf=1 m=1
+XM10 VSS VSS VSS VSS sky130_fd_pr__nfet_01v8 L=0.6 W=1.05 nf=1 m=1
+XM11 VDD VDD VDD VDD sky130_fd_pr__pfet_01v8 L=0.6 W=7 nf=1 m=1
+XM12 VDD VDD VDD VDD sky130_fd_pr__pfet_01v8 L=0.6 W=1.65 nf=1 m=1
+.ends
