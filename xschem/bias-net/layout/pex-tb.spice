@@ -1,0 +1,22 @@
+* Bias Network Post-Layout (PEX) Testbench
+
+.lib /foss/pdks/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+
+.include /foss/designs/2026/tt_sky26b_ldo_andriansyah/xschem/bias-net/layout/bias-network_flat.spice
+
+Vdd  VDD  0   PWL(0n 0  1u 0  20u 1.8)
+Vss  VSS  0   0
+
+Vmeas   VDD  ib1  0
+Vmeas1  VDD  ib2  0
+
+X1  VREF  ib1  ib2  VDD  VSS  bias-network_flat
+
+.control
+  set filetype=ascii
+  tran 10n 200u uic
+  plot v(VREF)
+  plot i(Vmeas) i(Vmeas1)
+.endc
+
+.end

@@ -1,0 +1,58 @@
+* NGSPICE file created from error-amplifier.ext - technology: sky130A
+
+.subckt sky130_fd_pr__pfet_01v8_LUS33L a_149_n386# a_n327_n412# a_n385_n386# w_n523_n534#
++ a_n149_n412# a_207_n412# a_n207_n386# a_327_n386# a_29_n412# a_n29_n386#
+X0 a_n29_n386# a_n149_n412# a_n207_n386# w_n523_n534# sky130_fd_pr__pfet_01v8 ad=0.5075 pd=3.79 as=0.5075 ps=3.79 w=3.5 l=0.6
+X1 a_327_n386# a_207_n412# a_149_n386# w_n523_n534# sky130_fd_pr__pfet_01v8 ad=1.015 pd=7.58 as=0.5075 ps=3.79 w=3.5 l=0.6
+X2 a_149_n386# a_29_n412# a_n29_n386# w_n523_n534# sky130_fd_pr__pfet_01v8 ad=0.5075 pd=3.79 as=0.5075 ps=3.79 w=3.5 l=0.6
+X3 a_n207_n386# a_n327_n412# a_n385_n386# w_n523_n534# sky130_fd_pr__pfet_01v8 ad=0.5075 pd=3.79 as=1.015 ps=7.58 w=3.5 l=0.6
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_73T7JX a_n741_n136# a_n327_n162# a_385_n162# a_n563_n136#
++ a_683_n136# a_n149_n162# a_207_n162# a_n385_n136# a_505_n136# a_n843_n248# a_29_n162#
++ a_n207_n136# a_n683_n162# a_327_n136# a_n505_n162# a_n29_n136# a_563_n162# a_149_n136#
+X0 a_n207_n136# a_n327_n162# a_n385_n136# a_n843_n248# sky130_fd_pr__nfet_01v8 ad=0.15225 pd=1.34 as=0.15225 ps=1.34 w=1.05 l=0.6
+X1 a_683_n136# a_563_n162# a_505_n136# a_n843_n248# sky130_fd_pr__nfet_01v8 ad=0.3045 pd=2.68 as=0.15225 ps=1.34 w=1.05 l=0.6
+X2 a_n29_n136# a_n149_n162# a_n207_n136# a_n843_n248# sky130_fd_pr__nfet_01v8 ad=0.15225 pd=1.34 as=0.15225 ps=1.34 w=1.05 l=0.6
+X3 a_n563_n136# a_n683_n162# a_n741_n136# a_n843_n248# sky130_fd_pr__nfet_01v8 ad=0.15225 pd=1.34 as=0.3045 ps=2.68 w=1.05 l=0.6
+X4 a_505_n136# a_385_n162# a_327_n136# a_n843_n248# sky130_fd_pr__nfet_01v8 ad=0.15225 pd=1.34 as=0.15225 ps=1.34 w=1.05 l=0.6
+X5 a_n385_n136# a_n505_n162# a_n563_n136# a_n843_n248# sky130_fd_pr__nfet_01v8 ad=0.15225 pd=1.34 as=0.15225 ps=1.34 w=1.05 l=0.6
+X6 a_327_n136# a_207_n162# a_149_n136# a_n843_n248# sky130_fd_pr__nfet_01v8 ad=0.15225 pd=1.34 as=0.15225 ps=1.34 w=1.05 l=0.6
+X7 a_149_n136# a_29_n162# a_n29_n136# a_n843_n248# sky130_fd_pr__nfet_01v8 ad=0.15225 pd=1.34 as=0.15225 ps=1.34 w=1.05 l=0.6
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_ZSQL2Q a_n385_n129# a_207_n226# w_n879_n349# a_505_n129#
++ a_n207_n129# a_29_n226# a_n683_n226# a_327_n129# a_n29_n129# a_149_n129# a_n505_n226#
++ a_563_n226# a_n741_n129# a_n327_n226# a_385_n226# a_n563_n129# a_683_n129# a_n149_n226#
+X0 a_n385_n129# a_n505_n226# a_n563_n129# w_n879_n349# sky130_fd_pr__pfet_01v8 ad=0.23925 pd=1.94 as=0.23925 ps=1.94 w=1.65 l=0.6
+X1 a_327_n129# a_207_n226# a_149_n129# w_n879_n349# sky130_fd_pr__pfet_01v8 ad=0.23925 pd=1.94 as=0.23925 ps=1.94 w=1.65 l=0.6
+X2 a_149_n129# a_29_n226# a_n29_n129# w_n879_n349# sky130_fd_pr__pfet_01v8 ad=0.23925 pd=1.94 as=0.23925 ps=1.94 w=1.65 l=0.6
+X3 a_n207_n129# a_n327_n226# a_n385_n129# w_n879_n349# sky130_fd_pr__pfet_01v8 ad=0.23925 pd=1.94 as=0.23925 ps=1.94 w=1.65 l=0.6
+X4 a_683_n129# a_563_n226# a_505_n129# w_n879_n349# sky130_fd_pr__pfet_01v8 ad=0.4785 pd=3.88 as=0.23925 ps=1.94 w=1.65 l=0.6
+X5 a_n29_n129# a_n149_n226# a_n207_n129# w_n879_n349# sky130_fd_pr__pfet_01v8 ad=0.23925 pd=1.94 as=0.23925 ps=1.94 w=1.65 l=0.6
+X6 a_n563_n129# a_n683_n226# a_n741_n129# w_n879_n349# sky130_fd_pr__pfet_01v8 ad=0.23925 pd=1.94 as=0.4785 ps=3.88 w=1.65 l=0.6
+X7 a_505_n129# a_385_n226# a_327_n129# w_n879_n349# sky130_fd_pr__pfet_01v8 ad=0.23925 pd=1.94 as=0.23925 ps=1.94 w=1.65 l=0.6
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_6CT3Q9 a_n29_n314# a_149_n314# a_n327_n411# a_n149_n411#
++ w_n523_n534# a_n385_n314# a_207_n411# a_n207_n314# a_29_n411# a_327_n314#
+X0 a_327_n314# a_207_n411# a_149_n314# w_n523_n534# sky130_fd_pr__pfet_01v8 ad=1.015 pd=7.58 as=0.5075 ps=3.79 w=3.5 l=0.6
+X1 a_149_n314# a_29_n411# a_n29_n314# w_n523_n534# sky130_fd_pr__pfet_01v8 ad=0.5075 pd=3.79 as=0.5075 ps=3.79 w=3.5 l=0.6
+X2 a_n207_n314# a_n327_n411# a_n385_n314# w_n523_n534# sky130_fd_pr__pfet_01v8 ad=0.5075 pd=3.79 as=1.015 ps=7.58 w=3.5 l=0.6
+X3 a_n29_n314# a_n149_n411# a_n207_n314# w_n523_n534# sky130_fd_pr__pfet_01v8 ad=0.5075 pd=3.79 as=0.5075 ps=3.79 w=3.5 l=0.6
+.ends
+
+.subckt error-amplifier VIN VP VN IBIAS_5uA OUT VSS
+Xsky130_fd_pr__pfet_01v8_LUS33L_1 m1_2300_n980# VN OUT VIN VN VN m1_2300_n980# OUT
++ VN OUT sky130_fd_pr__pfet_01v8_LUS33L
+XXM2 OUT OUT OUT VSS OUT OUT OUT OUT VSS VSS OUT VSS OUT OUT OUT OUT OUT VSS sky130_fd_pr__nfet_01v8_73T7JX
+XXM5 m1_2300_n980# IBIAS_5uA VIN VIN VIN IBIAS_5uA IBIAS_5uA m1_2300_n980# IBIAS_5uA
++ VIN IBIAS_5uA IBIAS_5uA IBIAS_5uA IBIAS_5uA IBIAS_5uA VIN IBIAS_5uA IBIAS_5uA sky130_fd_pr__pfet_01v8_ZSQL2Q
+Xsky130_fd_pr__pfet_01v8_6CT3Q9_0 OUT m1_2300_n980# VP VP VIN OUT VP m1_2300_n980#
++ VP OUT sky130_fd_pr__pfet_01v8_6CT3Q9
+Xsky130_fd_pr__pfet_01v8_6CT3Q9_1 OUT m1_2300_n980# VN VN VIN OUT VN m1_2300_n980#
++ VN OUT sky130_fd_pr__pfet_01v8_6CT3Q9
+Xsky130_fd_pr__pfet_01v8_LUS33L_0 m1_2300_n980# VP OUT VIN VP VP m1_2300_n980# OUT
++ VP OUT sky130_fd_pr__pfet_01v8_LUS33L
+.ends
+

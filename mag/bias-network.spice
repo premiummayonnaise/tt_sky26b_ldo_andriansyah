@@ -1,0 +1,52 @@
+** sch_path: /foss/designs/2026/tt_sky26b_ldo_andriansyah/xschem/bias-net/schematics/bias-network.sch
+**.subckt bias-network VDD VSS
+*.iopin VDD
+*.iopin VSS
+XM2 VREF VREF VSS VSS sky130_fd_pr__nfet_01v8 L=2 W=3 nf=4 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=2 m=2
+XR1 VREF net1 VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR2 net2 net1 VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR3 net2 net3 VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR4 net4 net3 VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR5 net4 net5 VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR6 net9 net10 VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR7 net9 net8 VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR8 net7 net8 VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR9 net7 net6 VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR10 net5 net6 VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XM1 net11 VREF VSS VSS sky130_fd_pr__nfet_01v8 L=2 W=3 nf=4 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=2 m=2
+XM3 net12 VREF VSS VSS sky130_fd_pr__nfet_01v8 L=2 W=3 nf=4 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=2 m=2
+V1 VDD VSS 1.8
+V6 VSS GND 0
+Vmeas VDD net11 0
+.save i(vmeas)
+Vmeas1 VDD net12 0
+.save i(vmeas1)
+XR11 net10 net13 VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR12 net14 net13 VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR13 net14 net15 VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR14 net16 net15 VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR15 net16 net17 VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR16 net21 VDD VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR17 net21 net20 VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR18 net19 net20 VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR19 net19 net18 VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR20 net17 net18 VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+**** begin user architecture code
+
+
+
+.control
+	DC V1 0 1.8 0.001
+	plot i(Vmeas) i(Vmeas1)
+
+.endc
+
+
+.lib /foss/pdks/sky130A/libs.tech/combined/sky130.lib.spice tt
+**** end user architecture code
+**.ends
+.GLOBAL GND
+.end

@@ -11,6 +11,8 @@ N 420 -230 450 -230 {lab=OUT}
 N 470 -170 470 -140 {lab=VSS}
 N 90 -250 90 -230 {lab=VCM}
 N 90 -210 120 -210 {lab=IBIAS}
+N 420 -410 480 -410 {lab=VDD}
+N 420 -430 480 -430 {lab=IBIAS}
 C {lab_pin.sym} 90 -240 0 0 {name=p3 sig_type=std_logic lab=VCM}
 C {lab_pin.sym} 470 -230 0 1 {name=p6 sig_type=std_logic lab=OUT}
 C {capa-2.sym} 470 -200 0 0 {name=C2
@@ -29,6 +31,7 @@ value=".control
   dc V1 0 1.8 0.001
   plot OUT
   plot -i(V5)
+  plot VREF
 .endc
 
 "}
@@ -38,9 +41,6 @@ C {lab_pin.sym} 740 -240 0 0 {name=p2 sig_type=std_logic lab=VSS}
 C {lab_pin.sym} 740 -300 0 0 {name=p4 sig_type=std_logic lab=VDD}
 C {gnd.sym} 740 -120 0 0 {name=l2 lab=GND}
 C {lab_pin.sym} 740 -180 0 0 {name=p14 sig_type=std_logic lab=VSS}
-C {lab_pin.sym} 620 -180 0 1 {name=p5 lab=IBIAS}
-C {lab_pin.sym} 620 -120 0 0 {name=p7 sig_type=std_logic lab=VSS}
-C {isource.sym} 620 -150 0 0 {name=I4 value="2.5u" savecurrent=false}
 C {vsource.sym} 620 -270 0 0 {name=V1 value="DC 2.5" savecurrent=false}
 C {lab_pin.sym} 620 -240 0 0 {name=p10 sig_type=std_logic lab=VSS}
 C {lab_pin.sym} 620 -300 0 0 {name=p21 sig_type=std_logic lab=VCM}
@@ -54,3 +54,9 @@ value="
 "
 spice_ignore=false}
 C {/foss/designs/2026/tt_sky26b_ldo_andriansyah/xschem/error-amplifier/error-amplifier.sym} 270 -230 0 0 {name=x1}
+C {/foss/designs/2026/tt_sky26b_ldo_andriansyah/xschem/bias-net/schematics/bias-network.sym} 270 -410 0 0 {name=x2}
+C {lab_pin.sym} 420 -450 0 1 {name=p1 sig_type=std_logic lab=VDD}
+C {lab_pin.sym} 420 -370 0 1 {name=p8 sig_type=std_logic lab=VSS}
+C {lab_pin.sym} 420 -390 0 1 {name=p9 sig_type=std_logic lab=VREF}
+C {lab_pin.sym} 480 -410 0 1 {name=p11 sig_type=std_logic lab=VDD}
+C {lab_pin.sym} 480 -430 0 1 {name=p12 sig_type=std_logic lab=IBIAS}

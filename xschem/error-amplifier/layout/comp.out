@@ -1,0 +1,102 @@
+
+Circuit 1 cell sky130_fd_pr__pfet_01v8 and Circuit 2 cell sky130_fd_pr__pfet_01v8 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_01v8 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_01v8 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__pfet_01v8         |Circuit 2: sky130_fd_pr__pfet_01v8         
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__pfet_01v8 and sky130_fd_pr__pfet_01v8 are equivalent.
+
+Circuit 1 cell sky130_fd_pr__nfet_01v8 and Circuit 2 cell sky130_fd_pr__nfet_01v8 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__nfet_01v8 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__nfet_01v8 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__nfet_01v8         |Circuit 2: sky130_fd_pr__nfet_01v8         
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__nfet_01v8 and sky130_fd_pr__nfet_01v8 are equivalent.
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_LUS33L in circuit error-amplifier (1)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_73T7JX in circuit error-amplifier (1)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_ZSQL2Q in circuit error-amplifier (1)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_6CT3Q9 in circuit error-amplifier (1)(2 instances)
+
+Class error-amplifier (1):  Merged 27 parallel devices.
+Subcircuit summary:
+Circuit 1: error-amplifier                 |Circuit 2: error-amplifier                 
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8 (24->4)            |sky130_fd_pr__pfet_01v8 (6->4)             
+sky130_fd_pr__nfet_01v8 (8->1)             |sky130_fd_pr__nfet_01v8 (2) **Mismatch**   
+Number of devices: 5 **Mismatch**          |Number of devices: 6 **Mismatch**          
+Number of nets: 7 **Mismatch**             |Number of nets: 9 **Mismatch**             
+---------------------------------------------------------------------------------------
+NET mismatches: Class fragments follow (with fanout counts):
+Circuit 1: error-amplifier                 |Circuit 2: error-amplifier                 
+
+---------------------------------------------------------------------------------------
+Net: OUT                                   |Net: OUT                                   
+  sky130_fd_pr__nfet_01v8/(1|3) = 1        |  sky130_fd_pr__nfet_01v8/(1|3) = 1        
+  sky130_fd_pr__pfet_01v8/(1|3) = 2        |  sky130_fd_pr__pfet_01v8/(1|3) = 1        
+  sky130_fd_pr__nfet_01v8/2 = 1            |                                           
+                                           |                                           
+Net: VIN                                   |Net: VIN                                   
+  sky130_fd_pr__pfet_01v8/(1|3) = 2        |  sky130_fd_pr__pfet_01v8/(1|3) = 2        
+  sky130_fd_pr__pfet_01v8/4 = 4            |  sky130_fd_pr__pfet_01v8/4 = 2            
+                                           |                                           
+Net: VSS                                   |Net: VSS                                   
+  sky130_fd_pr__nfet_01v8/(1|3) = 1        |  sky130_fd_pr__nfet_01v8/(1|3) = 2        
+  sky130_fd_pr__nfet_01v8/4 = 1            |  sky130_fd_pr__nfet_01v8/4 = 2            
+                                           |                                           
+(no matching net)                          |Net: net2                                  
+                                           |  sky130_fd_pr__nfet_01v8/(1|3) = 1        
+                                           |  sky130_fd_pr__nfet_01v8/2 = 2            
+                                           |  sky130_fd_pr__pfet_01v8/(1|3) = 1        
+                                           |                                           
+(no matching net)                          |Net: VDD                                   
+                                           |  sky130_fd_pr__pfet_01v8/4 = 2            
+---------------------------------------------------------------------------------------
+DEVICE mismatches: Class fragments follow (with node fanout counts):
+Circuit 1: error-amplifier                 |Circuit 2: error-amplifier                 
+
+---------------------------------------------------------------------------------------
+Instance: sky130_fd_pr__nfet_01v8_73T7JX:X |Instance: sky130_fd_pr__nfet_01v8:M1       
+  (1,3) = (4,2)                            |  (1,3) = (4,4)                            
+  2 = 4                                    |  2 = 4                                    
+  4 = 2                                    |  4 = 4                                    
+                                           |                                           
+(no matching instance)                     |Instance: sky130_fd_pr__nfet_01v8:M2       
+                                           |  (1,3) = (4,2)                            
+                                           |  2 = 4                                    
+                                           |  4 = 4                                    
+                                           |                                           
+---------------------------------------------------------------------------------------
+Netlists do not match.
+Port matching may fail to disambiguate symmetries.
+
+Subcircuit pins:
+Circuit 1: error-amplifier                 |Circuit 2: error-amplifier                 
+-------------------------------------------|-------------------------------------------
+OUT                                        |(no pin, node is net2)                     
+VIN                                        |VSS **Mismatch**                           
+VSS                                        |VIN **Mismatch**                           
+VP                                         |VP                                         
+VN                                         |VN                                         
+IBIAS_5uA                                  |IBIAS_5uA                                  
+(no pin, node is VSS)                      |OUT                                        
+---------------------------------------------------------------------------------------
+Cell pin lists for error-amplifier and error-amplifier altered to match.
+Device classes error-amplifier and error-amplifier are equivalent.
+
+Final result: Top level cell failed pin matching.

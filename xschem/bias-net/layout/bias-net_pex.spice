@@ -1,0 +1,46 @@
+* Bias Network Post-Layout (PEX) Testbench
+* Transient startup with IBIAS current measurement
+
+*-----------------------------------------------------------
+* PDK
+*-----------------------------------------------------------
+.lib /foss/pdks/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+
+*-----------------------------------------------------------
+* PEX netlist
+*-----------------------------------------------------------
+.include /foss/designs/2026/tt_sky26b_ldo_andriansyah/mag/bias-network/bias-network_flat.spice
+
+*-----------------------------------------------------------
+* Supplies
+*-----------------------------------------------------------
+Vdd  VDD  0   PWL(0n 0  1u 0  20u 1.8)
+Vss  VSS  0   0
+
+*-----------------------------------------------------------
+* Current ammeters — placed between DUT IBIAS pins and VDD
+*-----------------------------------------------------------
+Vmeas   VDD  IBIAS1_node  0
+Vmeas1  VDD  IBIAS2_node  0
+
+*-----------------------------------------------------------
+* DUT — pin order: VDD IBIAS1 IBIAS2 VREF VSS
+*-----------------------------------------------------------
+X1  VDD  IBIAS1_node  IBIAS2_node  VREF  VSS  bias-network
+
+*-----------------------------------------------------------
+* Analysis
+*-----------------------------------------------------------
+.control
+  set filetype=ascii
+  tran 10n 200u uic
+  plot v(VREF)
+  plot i(Vmeas) i(Vmeas1)
+  plot v(VDD) v(VREF)
+
+  let iref1 = i(Vmeas)
+  let iref2 = i(Vmeas1)
+  print iref1[length(iref1)-1] iref2[length(iref2)-1]
+.endc
+
+.end

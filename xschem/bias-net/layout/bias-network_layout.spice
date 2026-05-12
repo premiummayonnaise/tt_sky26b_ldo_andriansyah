@@ -1,0 +1,51 @@
+* NGSPICE file created from bias-network.ext - technology: sky130A
+
+.subckt sky130_fd_pr__res_xhigh_po_0p69_BG3BFW a_n69_674# a_n69_n1106# VSUBS
+X0 a_n69_674# a_n69_n1106# VSUBS sky130_fd_pr__res_xhigh_po_0p69 l=6.9
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_JZ4Z3X a_29_54# a_n487_109# a_n429_n314# a_487_n314#
++ a_29_n314# a_n29_109# a_n945_109# a_n429_54# a_n945_n259# a_887_109# a_n487_n259#
++ a_429_109# a_n29_n259# a_887_n259# a_487_54# a_n887_54# a_429_n259# a_n887_n314#
++ VSUBS
+X0 a_429_n259# a_29_n314# a_n29_n259# VSUBS sky130_fd_pr__nfet_01v8 ad=0.10875 pd=1.04 as=0.10875 ps=1.04 w=0.75 l=2
+X1 a_429_109# a_29_54# a_n29_109# VSUBS sky130_fd_pr__nfet_01v8 ad=0.10875 pd=1.04 as=0.10875 ps=1.04 w=0.75 l=2
+X2 a_887_n259# a_487_n314# a_429_n259# VSUBS sky130_fd_pr__nfet_01v8 ad=0.2175 pd=2.08 as=0.10875 ps=1.04 w=0.75 l=2
+X3 a_n487_109# a_n887_54# a_n945_109# VSUBS sky130_fd_pr__nfet_01v8 ad=0.10875 pd=1.04 as=0.2175 ps=2.08 w=0.75 l=2
+X4 a_n487_n259# a_n887_n314# a_n945_n259# VSUBS sky130_fd_pr__nfet_01v8 ad=0.10875 pd=1.04 as=0.2175 ps=2.08 w=0.75 l=2
+X5 a_n29_109# a_n429_54# a_n487_109# VSUBS sky130_fd_pr__nfet_01v8 ad=0.10875 pd=1.04 as=0.10875 ps=1.04 w=0.75 l=2
+X6 a_n29_n259# a_n429_n314# a_n487_n259# VSUBS sky130_fd_pr__nfet_01v8 ad=0.10875 pd=1.04 as=0.10875 ps=1.04 w=0.75 l=2
+X7 a_887_109# a_487_54# a_429_109# VSUBS sky130_fd_pr__nfet_01v8 ad=0.2175 pd=2.08 as=0.10875 ps=1.04 w=0.75 l=2
+.ends
+
+.subckt bias-network VREF IBIAS1 IBIAS2 VDD VSS
+XXR1 m1_4762_1588# m1_4962_3368# VSS sky130_fd_pr__res_xhigh_po_0p69_BG3BFW
+XXR2 m1_4762_1588# m1_4562_3368# VSS sky130_fd_pr__res_xhigh_po_0p69_BG3BFW
+XXR10 m1_3162_1588# VDD VSS sky130_fd_pr__res_xhigh_po_0p69_BG3BFW
+XXR11 m1_5162_1588# m1_4962_3368# VSS sky130_fd_pr__res_xhigh_po_0p69_BG3BFW
+XXR3 m1_4362_1588# m1_4562_3368# VSS sky130_fd_pr__res_xhigh_po_0p69_BG3BFW
+XXR12 m1_5162_1588# m1_5362_3368# VSS sky130_fd_pr__res_xhigh_po_0p69_BG3BFW
+XXR4 m1_4362_1588# m1_4162_3368# VSS sky130_fd_pr__res_xhigh_po_0p69_BG3BFW
+XXR5 m1_3962_1588# m1_4162_3368# VSS sky130_fd_pr__res_xhigh_po_0p69_BG3BFW
+XXR14 m1_5562_1588# m1_5762_3368# VSS sky130_fd_pr__res_xhigh_po_0p69_BG3BFW
+XXR13 m1_5562_1588# m1_5362_3368# VSS sky130_fd_pr__res_xhigh_po_0p69_BG3BFW
+XXR6 m1_3962_1588# m1_3762_3368# VSS sky130_fd_pr__res_xhigh_po_0p69_BG3BFW
+XXR15 m1_5962_1588# m1_5762_3368# VSS sky130_fd_pr__res_xhigh_po_0p69_BG3BFW
+XXR7 m1_3562_1588# m1_3762_3368# VSS sky130_fd_pr__res_xhigh_po_0p69_BG3BFW
+XXM3 VREF VSS VREF VREF VREF IBIAS1 IBIAS1 VREF IBIAS1 IBIAS1 VSS VSS IBIAS1 IBIAS1
++ VREF VREF VSS VREF VSS sky130_fd_pr__nfet_01v8_JZ4Z3X
+XXR16 m1_5962_1588# m1_6162_3368# VSS sky130_fd_pr__res_xhigh_po_0p69_BG3BFW
+XXR8 m1_3562_1588# m1_3362_3368# VSS sky130_fd_pr__res_xhigh_po_0p69_BG3BFW
+XXR17 m1_6362_1588# m1_6162_3368# VSS sky130_fd_pr__res_xhigh_po_0p69_BG3BFW
+XXR9 m1_3162_1588# m1_3362_3368# VSS sky130_fd_pr__res_xhigh_po_0p69_BG3BFW
+XXR18 m1_6362_1588# m1_6562_3368# VSS sky130_fd_pr__res_xhigh_po_0p69_BG3BFW
+XXR19 m1_6762_1588# m1_6562_3368# VSS sky130_fd_pr__res_xhigh_po_0p69_BG3BFW
+Xsky130_fd_pr__res_xhigh_po_0p69_BG3BFW_0 m1_6762_1588# VREF VSS sky130_fd_pr__res_xhigh_po_0p69_BG3BFW
+Xsky130_fd_pr__res_xhigh_po_0p69_BG3BFW_1 VSS VSS VSS sky130_fd_pr__res_xhigh_po_0p69_BG3BFW
+Xsky130_fd_pr__res_xhigh_po_0p69_BG3BFW_2 VSS VSS VSS sky130_fd_pr__res_xhigh_po_0p69_BG3BFW
+Xsky130_fd_pr__nfet_01v8_JZ4Z3X_0 VREF VSS VREF VREF VREF IBIAS2 IBIAS2 VREF IBIAS2
++ IBIAS2 VSS VSS IBIAS2 IBIAS2 VREF VREF VSS VREF VSS sky130_fd_pr__nfet_01v8_JZ4Z3X
+Xsky130_fd_pr__nfet_01v8_JZ4Z3X_1 VREF VSS VREF VREF VREF VREF VREF VREF VREF VREF
++ VSS VSS VREF VREF VREF VREF VSS VREF VSS sky130_fd_pr__nfet_01v8_JZ4Z3X
+.ends
+
