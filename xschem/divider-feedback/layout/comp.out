@@ -1,0 +1,41 @@
+
+Circuit 1 cell sky130_fd_pr__res_xhigh_po_0p69 and Circuit 2 cell sky130_fd_pr__res_xhigh_po_0p69 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__res_xhigh_po_0p69 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__res_xhigh_po_0p69 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__res_xhigh_po_0p69 |Circuit 2: sky130_fd_pr__res_xhigh_po_0p69 
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__res_xhigh_po_0p69 and sky130_fd_pr__res_xhigh_po_0p69 are equivalent.
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_0p69_BG3BFW in circuit divider-feedback (0)(22 instances)
+
+Class divider-feedback (0):  Merged 1 parallel devices.
+Class divider-feedback (0):  Merged 18 series devices.
+Class divider-feedback (1):  Merged 1 parallel devices.
+Class divider-feedback (1):  Merged 18 series devices.
+Subcircuit summary:
+Circuit 1: divider-feedback                |Circuit 2: divider-feedback                
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__res_xhigh_po_0p69 (22->3)    |sky130_fd_pr__res_xhigh_po_0p69 (22->3)    
+Number of devices: 3                       |Number of devices: 3                       
+Number of nets: 3                          |Number of nets: 3                          
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: divider-feedback                |Circuit 2: divider-feedback                
+-------------------------------------------|-------------------------------------------
+VDD                                        |VDD                                        
+VFB                                        |VFB                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes divider-feedback and divider-feedback are equivalent.
+
+Final result: Circuits match uniquely.
+.

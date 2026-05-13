@@ -1,0 +1,111 @@
+* PEX AC testbench (parasitic-extracted error-amplifier)
+** sch_path: /foss/designs/2026/tt_sky26b_ldo_andriansyah/xschem/error-amplifier/testbench/tb_ac_pex.sch
+**.subckt tb_ac_pex
+V2 VN VSS ac -1m dc 0.9
+V3 VP VSS ac 1m dc 0.9
+V5 VDD1 VSS 1.8
+V7 VSS GND 0
+C2 OUT VSS 1.5p m=1
+C1 OUT2 VSS 1.5p m=1
+V1 VCM VSS ac 1m dc 0.9
+V4 VDD2 VSS 1.8
+C3 OUT3 VSS 1.5p m=1
+V6 VDDr VSS DC 1.8 AC 1
+L1 OUT3 net1 0.25 m=1
+V8 VPR VSS dc 0.9
+x1 VDD1 VP   VN   IBIAS1 OUT  VSS error-amplifier_flat
+x2 VDD2 VCM  VCM  IBIAS2 OUT2 VSS error-amplifier_flat
+x3 VDDr net1 VPR  IBIAS3 OUT3 VSS error-amplifier_flat
+x4 VDD3 IBIAS3 VDD3 VREF3 VSS bias-network
+x5 VDD2 IBIAS2 VDD2 VREF2 VSS bias-network
+x6 VDD1 IBIAS1 VDD1 VREF1 VSS bias-network
+
+**** begin user architecture code
+
+.control
+  .temp 27
+  op
+  ac dec 100 1 100MEG
+  save all
+
+  * --- Original Logic ---
+  let vd = v(vp) - v(vn)
+  let Av = db( v(OUT) / vd)
+  let phase = 180*cph( v(OUT) )/pi
+
+  * --- New Measurement Snippet ---
+  * We use the 'Av' and 'phase' vectors created above
+  meas ac f_0db when Av = 0
+  meas ac phase_at_unity find phase when Av = 0
+
+  * Note: p_total needs a definition to be plotted
+  * Assuming p_total is VDD * Total Current:
+  let p_total = v(vdd) * i(Vdd)
+
+  * --- Original CMRR & PSRR calculation ---
+  let Acm = db( v(OUT2)/vcm)
+  let cmrr = Av - Acm
+  let psrr = -20*log10(OUT3)
+
+  * --- Output ---
+  print f_0db phase_at_unity
+  plot psrr
+  plot av
+  plot acm
+  plot cmrr
+  plot phase
+  plot p_total
+.endc
+
+
+** opencircuitdesign pdks install
+.lib /foss/pdks/sky130A/libs.tech/combined/sky130.lib.spice ss
+
+** PEX (parasitic) subcircuit for the error amplifier
+.include /foss/designs/2026/tt_sky26b_ldo_andriansyah/xschem/error-amplifier/layout/error-amplifier_flat.spice
+
+**** end user architecture code
+**.ends
+
+
+* expanding   symbol:  /foss/designs/2026/tt_sky26b_ldo_andriansyah/xschem/bias-net/schematics/bias-network.sym # of pins=5
+** sym_path: /foss/designs/2026/tt_sky26b_ldo_andriansyah/xschem/bias-net/schematics/bias-network.sym
+** sch_path: /foss/designs/2026/tt_sky26b_ldo_andriansyah/xschem/bias-net/schematics/bias-network.sch
+.subckt bias-network VDD IBIAS1 IBIAS2 VREF VSS
+*.iopin VDD
+*.iopin VSS
+*.opin IBIAS1
+*.opin IBIAS2
+*.opin VREF
+XM2 VREF VREF VSS VSS sky130_fd_pr__nfet_01v8 L=2 W=3 nf=4 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=2 m=2
+XR1 VREF net1 VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR2 net2 net1 VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR3 net2 net3 VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR4 net4 net3 VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR5 net4 net5 VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR6 net9 net10 VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR7 net9 net8 VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR8 net7 net8 VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR9 net7 net6 VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR10 net5 net6 VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XM1 IBIAS1 VREF VSS VSS sky130_fd_pr__nfet_01v8 L=2 W=3 nf=4 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=2 m=2
+XM3 IBIAS2 VREF VSS VSS sky130_fd_pr__nfet_01v8 L=2 W=3 nf=4 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=2 m=2
+XR11 net10 net11 VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR12 net12 net11 VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR13 net12 net13 VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR14 net14 net13 VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR15 net14 net15 VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR16 net19 VDD VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR17 net19 net18 VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR18 net17 net18 VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR19 net17 net16 VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR20 net15 net16 VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR21 VSS VSS VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR22 VSS VSS VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+.ends
+
+.GLOBAL GND
+.end

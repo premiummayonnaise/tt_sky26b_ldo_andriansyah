@@ -23,7 +23,7 @@ N 190 -400 200 -400 {lab=IBIAS_5uA}
 N 200 -450 200 -400 {lab=IBIAS_5uA}
 N 140 -480 140 -450 {lab=VIN}
 N 350 -480 350 -450 {lab=VIN}
-N 260 -380 430 -380 {lab=VDD}
+N 260 -380 430 -380 {lab=VIN}
 N 430 -320 450 -320 {lab=OUT}
 C {sky130_fd_pr/nfet_01v8.sym} 280 -270 0 1 {name=M1
 W=4.2
@@ -54,10 +54,10 @@ model=nfet_01v8
 spiceprefix=X
 }
 C {sky130_fd_pr/pfet_01v8.sym} 240 -380 0 0 {name=M3
-W=14
+W=28
 L=0.6
 nf=4
-mult=2
+mult=1
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
 pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
 as="'int((nf+2)/2) * W/nf * 0.29'" 
@@ -68,10 +68,10 @@ model=pfet_01v8
 spiceprefix=X
 }
 C {sky130_fd_pr/pfet_01v8.sym} 450 -380 0 1 {name=M4
-W=14
+W=28
 L=0.6
 nf=4
-mult=2
+mult=1
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
 pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
 as="'int((nf+2)/2) * W/nf * 0.29'" 
@@ -109,7 +109,7 @@ sa=0 sb=0 sd=0
 model=pfet_01v8
 spiceprefix=X
 }
-C {lab_wire.sym} 350 -380 0 0 {name=p1 sig_type=std_logic lab=VDD
+C {lab_wire.sym} 350 -380 0 0 {name=p1 sig_type=std_logic lab=VIN
 nf=4}
 C {ipin.sym} 140 -350 0 0 {name=p2 lab=IBIAS_5uA}
 C {ipin.sym} 220 -380 0 0 {name=p3 lab=VN}

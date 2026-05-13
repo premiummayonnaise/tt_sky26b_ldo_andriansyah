@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1778587809
+timestamp 1778633570
 << pwell >>
 rect 2600 1200 7600 4100
 rect 7700 1200 10000 4100
@@ -581,15 +581,15 @@ use sky130_fd_pr__nfet_01v8_JZ4Z3X  sky130_fd_pr__nfet_01v8_JZ4Z3X_1
 timestamp 1778580393
 transform 1 0 8828 0 1 1764
 box -945 -347 945 347
-use sky130_fd_pr__res_xhigh_po_0p69_BG3BFW  sky130_fd_pr__res_xhigh_po_0p69_BG3BFW_0
+use sky130_fd_pr__res_xhigh_po_0p69_BG3BFW__0  sky130_fd_pr__res_xhigh_po_0p69_BG3BFW_0
 timestamp 1778576375
 transform -1 0 7031 0 -1 2694
 box -69 -1106 69 1106
-use sky130_fd_pr__res_xhigh_po_0p69_BG3BFW  sky130_fd_pr__res_xhigh_po_0p69_BG3BFW_1
+use sky130_fd_pr__res_xhigh_po_0p69_BG3BFW__0  sky130_fd_pr__res_xhigh_po_0p69_BG3BFW_1
 timestamp 1778576375
 transform -1 0 2969 0 -1 2706
 box -69 -1106 69 1106
-use sky130_fd_pr__res_xhigh_po_0p69_BG3BFW  sky130_fd_pr__res_xhigh_po_0p69_BG3BFW_2
+use sky130_fd_pr__res_xhigh_po_0p69_BG3BFW__0  sky130_fd_pr__res_xhigh_po_0p69_BG3BFW_2
 timestamp 1778576375
 transform -1 0 7269 0 -1 2706
 box -69 -1106 69 1106
@@ -597,79 +597,79 @@ use sky130_fd_pr__nfet_01v8_JZ4Z3X  XM3
 timestamp 1778580393
 transform 1 0 8825 0 1 2647
 box -945 -347 945 347
-use sky130_fd_pr__res_xhigh_po_0p69_BG3BFW  XR1
+use sky130_fd_pr__res_xhigh_po_0p69_BG3BFW__0  XR1
 timestamp 1778576375
 transform -1 0 5031 0 -1 2694
 box -69 -1106 69 1106
-use sky130_fd_pr__res_xhigh_po_0p69_BG3BFW  XR2
+use sky130_fd_pr__res_xhigh_po_0p69_BG3BFW__0  XR2
 timestamp 1778576375
 transform -1 0 4831 0 -1 2694
 box -69 -1106 69 1106
-use sky130_fd_pr__res_xhigh_po_0p69_BG3BFW  XR3
+use sky130_fd_pr__res_xhigh_po_0p69_BG3BFW__0  XR3
 timestamp 1778576375
 transform -1 0 4631 0 -1 2694
 box -69 -1106 69 1106
-use sky130_fd_pr__res_xhigh_po_0p69_BG3BFW  XR4
+use sky130_fd_pr__res_xhigh_po_0p69_BG3BFW__0  XR4
 timestamp 1778576375
 transform -1 0 4431 0 -1 2694
 box -69 -1106 69 1106
-use sky130_fd_pr__res_xhigh_po_0p69_BG3BFW  XR5
+use sky130_fd_pr__res_xhigh_po_0p69_BG3BFW__0  XR5
 timestamp 1778576375
 transform -1 0 4231 0 -1 2694
 box -69 -1106 69 1106
-use sky130_fd_pr__res_xhigh_po_0p69_BG3BFW  XR6
+use sky130_fd_pr__res_xhigh_po_0p69_BG3BFW__0  XR6
 timestamp 1778576375
 transform -1 0 4031 0 -1 2694
 box -69 -1106 69 1106
-use sky130_fd_pr__res_xhigh_po_0p69_BG3BFW  XR7
+use sky130_fd_pr__res_xhigh_po_0p69_BG3BFW__0  XR7
 timestamp 1778576375
 transform -1 0 3831 0 -1 2694
 box -69 -1106 69 1106
-use sky130_fd_pr__res_xhigh_po_0p69_BG3BFW  XR8
+use sky130_fd_pr__res_xhigh_po_0p69_BG3BFW__0  XR8
 timestamp 1778576375
 transform -1 0 3631 0 -1 2694
 box -69 -1106 69 1106
-use sky130_fd_pr__res_xhigh_po_0p69_BG3BFW  XR9
+use sky130_fd_pr__res_xhigh_po_0p69_BG3BFW__0  XR9
 timestamp 1778576375
 transform -1 0 3431 0 -1 2694
 box -69 -1106 69 1106
-use sky130_fd_pr__res_xhigh_po_0p69_BG3BFW  XR10
+use sky130_fd_pr__res_xhigh_po_0p69_BG3BFW__0  XR10
 timestamp 1778576375
 transform -1 0 3231 0 -1 2694
 box -69 -1106 69 1106
-use sky130_fd_pr__res_xhigh_po_0p69_BG3BFW  XR11
+use sky130_fd_pr__res_xhigh_po_0p69_BG3BFW__0  XR11
 timestamp 1778576375
 transform -1 0 5231 0 -1 2694
 box -69 -1106 69 1106
-use sky130_fd_pr__res_xhigh_po_0p69_BG3BFW  XR12
+use sky130_fd_pr__res_xhigh_po_0p69_BG3BFW__0  XR12
 timestamp 1778576375
 transform -1 0 5431 0 -1 2694
 box -69 -1106 69 1106
-use sky130_fd_pr__res_xhigh_po_0p69_BG3BFW  XR13
+use sky130_fd_pr__res_xhigh_po_0p69_BG3BFW__0  XR13
 timestamp 1778576375
 transform -1 0 5631 0 -1 2694
 box -69 -1106 69 1106
-use sky130_fd_pr__res_xhigh_po_0p69_BG3BFW  XR14
+use sky130_fd_pr__res_xhigh_po_0p69_BG3BFW__0  XR14
 timestamp 1778576375
 transform -1 0 5831 0 -1 2694
 box -69 -1106 69 1106
-use sky130_fd_pr__res_xhigh_po_0p69_BG3BFW  XR15
+use sky130_fd_pr__res_xhigh_po_0p69_BG3BFW__0  XR15
 timestamp 1778576375
 transform -1 0 6031 0 -1 2694
 box -69 -1106 69 1106
-use sky130_fd_pr__res_xhigh_po_0p69_BG3BFW  XR16
+use sky130_fd_pr__res_xhigh_po_0p69_BG3BFW__0  XR16
 timestamp 1778576375
 transform -1 0 6231 0 -1 2694
 box -69 -1106 69 1106
-use sky130_fd_pr__res_xhigh_po_0p69_BG3BFW  XR17
+use sky130_fd_pr__res_xhigh_po_0p69_BG3BFW__0  XR17
 timestamp 1778576375
 transform -1 0 6431 0 -1 2694
 box -69 -1106 69 1106
-use sky130_fd_pr__res_xhigh_po_0p69_BG3BFW  XR18
+use sky130_fd_pr__res_xhigh_po_0p69_BG3BFW__0  XR18
 timestamp 1778576375
 transform -1 0 6631 0 -1 2694
 box -69 -1106 69 1106
-use sky130_fd_pr__res_xhigh_po_0p69_BG3BFW  XR19
+use sky130_fd_pr__res_xhigh_po_0p69_BG3BFW__0  XR19
 timestamp 1778576375
 transform -1 0 6831 0 -1 2694
 box -69 -1106 69 1106

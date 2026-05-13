@@ -1,0 +1,5 @@
+** sch_path: /foss/designs/2026/tt_sky26b_ldo_andriansyah/xschem/power-fet/schematics/power-fet.sch
+.subckt power-fet VIN B A
+*.PININFO VIN:I B:B A:B
+XM1 A B VIN VIN sky130_fd_pr__pfet_01v8 L=0.2 W=31.25 nf=64 m=16
+.ends

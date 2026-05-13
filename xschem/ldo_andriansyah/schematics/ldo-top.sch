@@ -4,56 +4,66 @@ K {}
 V {}
 S {}
 E {}
-N 1230 -230 1230 -220 {lab=OUT}
-N 1230 -350 1230 -310 {lab=VIN}
-N 1230 -60 1230 -40 {lab=VSS}
-N 1230 -230 1310 -230 {lab=OUT}
-N 1230 -250 1230 -230 {lab=OUT}
-N 1310 -230 1410 -230 {lab=OUT}
-N 920 -280 940 -280 {lab=#net1}
-N 990 -280 1050 -280 {lab=#net1}
-N 1050 -280 1190 -280 {lab=#net1}
-N 1160 -230 1230 -230 {lab=OUT}
-N 1230 -160 1230 -120 {lab=VFB}
-N 940 -280 990 -280 {lab=#net1}
-N 430 -280 620 -280 {lab=#net2}
-N 480 -140 640 -140 {lab=#net2}
-N 480 -280 480 -140 {lab=#net2}
-N 990 -230 1010 -230 {lab=#net1}
-N 990 -280 990 -230 {lab=#net1}
-N 1070 -230 1160 -230 {lab=OUT}
-N 700 -140 1120 -140 {lab=OUT}
-N 1120 -230 1120 -140 {lab=OUT}
-N 120 -300 130 -300 {lab=VREF}
-N 430 -330 430 -300 {lab=VIN}
-N 920 -330 920 -300 {lab=VIN}
-C {lab_pin.sym} 1230 -140 0 1 {name=p17 sig_type=std_logic lab=VFB}
-C {sky130_fd_pr/cap_mim_m3_1.sym} 670 -140 1 0 {name=C2 model=cap_mim_m3_1 W=6 L=6 MF=4 spiceprefix=X}
-C {sky130_fd_pr/cap_mim_m3_1.sym} 1040 -230 1 0 {name=C3 model=cap_mim_m3_1 W=6 L=6 MF=4 spiceprefix=X}
-C {/foss/designs/2026/tt_sky26b_ldo_andriansyah/xschem/error-amplifier/error-amplifier.sym} 280 -280 0 0 {name=x3}
-C {sky130_fd_pr/res_xhigh_po_0p69.sym} 1230 -190 0 0 {name=R1
-L=69
-model=res_xhigh_po_0p69
-spiceprefix=X
-mult=1}
-C {sky130_fd_pr/res_xhigh_po_0p69.sym} 1230 -90 0 0 {name=R2
-L=69
-model=res_xhigh_po_0p69
-spiceprefix=X
-mult=1}
-C {lab_pin.sym} 130 -280 0 0 {name=p32 sig_type=std_logic lab=VFB}
-C {ipin.sym} 120 -300 0 0 {name=p35 sig_type=std_logic lab=VREF}
-C {ipin.sym} 1230 -350 0 1 {name=p37 sig_type=std_logic lab=VIN}
-C {lab_pin.sym} 1210 -190 0 0 {name=p38 sig_type=std_logic lab=VSS}
-C {ipin.sym} 130 -260 0 0 {name=p39 sig_type=std_logic lab=IBIAS__2.5uA}
-C {iopin.sym} 1230 -40 0 0 {name=p40 sig_type=std_logic lab=VSS}
-C {lab_pin.sym} 430 -260 0 1 {name=p41 sig_type=std_logic lab=VSS}
-C {sky130_fd_pr/pfet3_01v8.sym} 1210 -280 0 0 {name=M2
-W=500
+N 1560 -310 1560 -300 {lab=OUT}
+N 1560 -430 1560 -390 {lab=VIN}
+N 1560 -140 1560 -120 {lab=VSS}
+N 1560 -310 1640 -310 {lab=OUT}
+N 1560 -330 1560 -310 {lab=OUT}
+N 1640 -310 1740 -310 {lab=OUT}
+N 1250 -360 1270 -360 {lab=#net1}
+N 1320 -360 1380 -360 {lab=#net1}
+N 1380 -360 1520 -360 {lab=#net1}
+N 1490 -310 1560 -310 {lab=OUT}
+N 1270 -360 1320 -360 {lab=#net1}
+N 760 -360 950 -360 {lab=#net2}
+N 810 -220 970 -220 {lab=#net2}
+N 810 -360 810 -220 {lab=#net2}
+N 1320 -310 1340 -310 {lab=#net1}
+N 1320 -360 1320 -310 {lab=#net1}
+N 1400 -310 1490 -310 {lab=OUT}
+N 1030 -220 1450 -220 {lab=OUT}
+N 1450 -310 1450 -220 {lab=OUT}
+N 450 -380 460 -380 {lab=#net3}
+N 760 -410 760 -380 {lab=VIN}
+N 1250 -410 1250 -380 {lab=VIN}
+N 350 -340 460 -340 {lab=#net4}
+N 350 -320 950 -320 {lab=#net5}
+N 950 -340 950 -320 {lab=#net5}
+N 380 -380 450 -380 {lab=#net3}
+N 380 -380 380 -300 {lab=#net3}
+N 350 -300 380 -300 {lab=#net3}
+N 130 -110 1560 -110 {lab=VSS}
+N 1560 -120 1560 -110 {lab=VSS}
+N 350 -280 350 -110 {lab=VSS}
+N 1250 -430 1250 -410 {lab=VIN}
+N 760 -430 1250 -430 {lab=VIN}
+N 760 -430 760 -410 {lab=VIN}
+N 140 -430 760 -430 {lab=VIN}
+N 1250 -430 1560 -430 {lab=VIN}
+N 1560 -300 1560 -240 {lab=OUT}
+N 1560 -200 1560 -140 {lab=VSS}
+N 1500 -220 1560 -220 {lab=#net6}
+N 1500 -220 1500 -150 {lab=#net6}
+N 430 -150 1500 -150 {lab=#net6}
+N 430 -360 430 -150 {lab=#net6}
+N 430 -360 460 -360 {lab=#net6}
+N 760 -340 760 -110 {lab=VSS}
+N 1250 -340 1250 -110 {lab=VSS}
+N 380 -300 930 -300 {lab=#net3}
+N 930 -380 930 -300 {lab=#net3}
+N 930 -380 950 -380 {lab=#net3}
+N 350 -400 350 -360 {lab=VDD}
+C {sky130_fd_pr/cap_mim_m3_1.sym} 1000 -220 1 0 {name=C2 model=cap_mim_m3_1 W=6 L=6 MF=4 spiceprefix=X}
+C {sky130_fd_pr/cap_mim_m3_1.sym} 1370 -310 1 0 {name=C3 model=cap_mim_m3_1 W=6 L=6 MF=4 spiceprefix=X}
+C {/foss/designs/2026/tt_sky26b_ldo_andriansyah/xschem/error-amplifier/error-amplifier.sym} 610 -360 0 0 {name=x3}
+C {ipin.sym} 140 -430 2 1 {name=p37 sig_type=std_logic lab=VIN}
+C {iopin.sym} 130 -110 0 1 {name=p40 sig_type=std_logic lab=VSS}
+C {sky130_fd_pr/pfet3_01v8.sym} 1540 -360 0 0 {name=M2
+W=125
 L=0.2
 body=VIN
 nf=128
-mult=1
+mult=4
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
 pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
 as="'int((nf+2)/2) * W/nf * 0.29'" 
@@ -63,11 +73,8 @@ sa=0 sb=0 sd=0
 model=pfet_01v8
 spiceprefix=X
 }
-C {/foss/designs/2026/tt_sky26b_ldo_andriansyah/xschem/error-amplifier/error-amplifier.sym} 770 -280 0 0 {name=x4}
-C {ipin.sym} 620 -260 0 0 {name=p47 sig_type=std_logic lab=IBIAS_2.5uA}
-C {lab_pin.sym} 920 -260 0 1 {name=p48 sig_type=std_logic lab=VSS}
-C {ipin.sym} 620 -300 0 0 {name=p49 sig_type=std_logic lab=VBIAS}
-C {lab_pin.sym} 1210 -90 0 0 {name=p50 sig_type=std_logic lab=VSS}
-C {opin.sym} 1410 -230 0 0 {name=p1 sig_type=std_logic lab=OUT}
-C {lab_pin.sym} 920 -330 0 1 {name=p2 sig_type=std_logic lab=VIN}
-C {lab_pin.sym} 430 -330 0 1 {name=p3 sig_type=std_logic lab=VIN}
+C {/foss/designs/2026/tt_sky26b_ldo_andriansyah/xschem/error-amplifier/error-amplifier.sym} 1100 -360 0 0 {name=x4}
+C {opin.sym} 1740 -310 0 0 {name=p1 sig_type=std_logic lab=OUT}
+C {/foss/designs/2026/tt_sky26b_ldo_andriansyah/xschem/bias-net/schematics/bias-network.sym} 200 -320 0 0 {name=x1}
+C {/foss/designs/2026/tt_sky26b_ldo_andriansyah/xschem/divider-feedback/schematics/divider-feedback.sym} 1710 -220 0 1 {name=x2}
+C {iopin.sym} 350 -400 0 1 {name=p2 sig_type=std_logic lab=VDD}

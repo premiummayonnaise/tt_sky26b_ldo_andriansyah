@@ -1,0 +1,60 @@
+** sch_path: /foss/designs/2026/tt_sky26b_ldo_andriansyah/xschem/ldo_andriansyah/schematics/ldo-top.sch
+**.subckt ldo-top
+x2 VIN VREF VFB VEA IN VSS error-amplifier
+V7 VSS GND 0
+V1 VIN VSS dc 0.9
+XR6 VFB OUT VSS sky130_fd_pr__res_xhigh_po_0p69 L=69 mult=1 m=1
+XR7 VSS VFB VSS sky130_fd_pr__res_xhigh_po_0p69 L=69 mult=1 m=1
+XM1 OUT net1 VIN VIN sky130_fd_pr__pfet_01v8 L=0.2 W=500 nf=128 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
+V2 VREF VSS 0.6
+I0 VEA VSS 2.5u
+V3 VBIAS VSS 0.9
+I1 OUT VSS 0
+x1 VIN VBIAS IN VE net1 VSS error-amplifier
+I2 VE VSS 2.5u
+**** begin user architecture code
+
+
+.control
+DC V1 1.62 2 0.001
+plot OUT
+plot A B
+plot -i(V1)
+.endc
+
+
+
+** opencircuitdesign pdks install
+.lib /foss/pdks/sky130A/libs.tech/combined/sky130.lib.spice tt
+
+
+**** end user architecture code
+**.ends
+
+* expanding   symbol:  /foss/designs/2026/tt_sky26b_ldo_andriansyah/xschem/error-amplifier/error-amplifier.sym # of pins=6
+** sym_path: /foss/designs/2026/tt_sky26b_ldo_andriansyah/xschem/error-amplifier/error-amplifier.sym
+** sch_path: /foss/designs/2026/tt_sky26b_ldo_andriansyah/xschem/error-amplifier/error-amplifier.sch
+.subckt error-amplifier VIN VP VN IBIAS_5uA OUT VSS
+*.ipin IBIAS_5uA
+*.ipin VN
+*.ipin VP
+*.iopin VIN
+*.iopin VSS
+*.opin OUT
+XM1 net2 net2 VSS VSS sky130_fd_pr__nfet_01v8 L=0.6 W=4.2 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
+XM2 OUT net2 VSS VSS sky130_fd_pr__nfet_01v8 L=0.6 W=4.2 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
+XM3 net2 VN net1 VDD sky130_fd_pr__pfet_01v8 L=0.6 W=28 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
+XM4 OUT VP net1 VDD sky130_fd_pr__pfet_01v8 L=0.6 W=28 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
+XM5 net1 IBIAS_5uA VIN VIN sky130_fd_pr__pfet_01v8 L=0.6 W=6.6 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
+XM6 IBIAS_5uA IBIAS_5uA VIN VIN sky130_fd_pr__pfet_01v8 L=0.6 W=6.6 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
+.ends
+
+.GLOBAL GND
+.end

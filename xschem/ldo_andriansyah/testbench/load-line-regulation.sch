@@ -60,7 +60,7 @@ value=2.4u}
 C {lab_pin.sym} 1690 -230 0 1 {name=p17 sig_type=std_logic lab=VFB}
 C {sky130_fd_pr/cap_mim_m3_1.sym} 1130 -230 1 0 {name=C2 model=cap_mim_m3_1 W=6 L=6 MF=4 spiceprefix=X}
 C {sky130_fd_pr/cap_mim_m3_1.sym} 1500 -320 1 0 {name=C3 model=cap_mim_m3_1 W=6 L=6 MF=4 spiceprefix=X}
-C {/foss/designs/2026/tt_sky26b_ldo_andriansyah/xschem/error-amplifier/error-amplifier.sym} 740 -370 0 0 {name=x3}
+C {error-amplifier.sym} 740 -370 0 0 {name=x3}
 C {sky130_fd_pr/res_xhigh_po_0p69.sym} 1690 -280 0 0 {name=R1
 L=6.9
 model=res_xhigh_po_0p69
@@ -79,11 +79,11 @@ C {lab_pin.sym} 590 -350 0 0 {name=p39 sig_type=std_logic lab=IBIAS1}
 C {iopin.sym} 1690 -130 0 0 {name=p40 sig_type=std_logic lab=VSS}
 C {lab_pin.sym} 890 -350 0 1 {name=p41 sig_type=std_logic lab=VSS}
 C {sky130_fd_pr/pfet3_01v8.sym} 1670 -370 0 0 {name=M2
-W=500
+W=125
 L=0.2
 body=VIN
 nf=128
-mult=1
+mult=4
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
 pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
 as="'int((nf+2)/2) * W/nf * 0.29'" 
@@ -93,7 +93,7 @@ sa=0 sb=0 sd=0
 model=pfet_01v8
 spiceprefix=X
 }
-C {/foss/designs/2026/tt_sky26b_ldo_andriansyah/xschem/error-amplifier/error-amplifier.sym} 1230 -370 0 0 {name=x4}
+C {error-amplifier.sym} 1230 -370 0 0 {name=x4}
 C {lab_pin.sym} 1080 -350 0 0 {name=p47 sig_type=std_logic lab=IBIAS2}
 C {lab_pin.sym} 1380 -350 0 1 {name=p48 sig_type=std_logic lab=VSS}
 C {lab_pin.sym} 1080 -390 0 0 {name=p49 sig_type=std_logic lab=VREF}

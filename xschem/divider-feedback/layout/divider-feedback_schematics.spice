@@ -1,0 +1,26 @@
+** sch_path: /foss/designs/2026/tt_sky26b_ldo_andriansyah/xschem/divider-feedback/schematics/divider-feedback.sch
+.subckt divider-feedback VSS VDD VFB
+*.PININFO VSS:B VDD:B VFB:O
+XR2 VFB net1 VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR3 net1 net2 VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR4 net2 net3 VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR5 net3 net4 VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR6 net4 net5 VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR7 net5 net6 VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR8 net6 net7 VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR9 net7 net8 VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR10 net8 net9 VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR11 net9 VDD VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR13 VSS net10 VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR14 net10 net11 VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR15 net11 net12 VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR16 net12 net13 VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR17 net13 net14 VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR18 net14 net15 VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR19 net15 net16 VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR20 net16 net17 VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR21 net17 net18 VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR22 net18 VFB VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR23 VSS VSS VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR24 VSS VSS VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+.ends
