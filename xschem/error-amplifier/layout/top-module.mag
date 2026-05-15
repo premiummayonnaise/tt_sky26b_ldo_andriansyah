@@ -1,0 +1,16 @@
+magic
+tech sky130A
+timestamp 1778649911
+use bias-network  bias-network_0 bias-net/layout
+timestamp 1778633570
+transform 1 0 -1100 0 1 -3875
+box 1300 475 5125 2151
+use divider-feedback  divider-feedback_0 divider-feedback/layout
+timestamp 1778606292
+transform 1 0 600 0 1 -2300
+box -400 800 2050 2500
+use power-fet  power-fet_0 power-fet/layout
+timestamp 1778649171
+transform 1 0 500 0 1 200
+box -300 100 7100 3063
+<< end >>

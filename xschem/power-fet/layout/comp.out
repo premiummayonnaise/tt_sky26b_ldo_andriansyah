@@ -1,39 +1,64 @@
 
-Circuit 1 cell sky130_fd_pr__pfet_01v8 and Circuit 2 cell sky130_fd_pr__pfet_01v8 are black boxes.
-Warning: Equate pins:  cell sky130_fd_pr__pfet_01v8 is a placeholder, treated as a black box.
-Warning: Equate pins:  cell sky130_fd_pr__pfet_01v8 is a placeholder, treated as a black box.
-
-Subcircuit pins:
-Circuit 1: sky130_fd_pr__pfet_01v8         |Circuit 2: sky130_fd_pr__pfet_01v8         
--------------------------------------------|-------------------------------------------
-1                                          |1                                          
-2                                          |2                                          
-3                                          |3                                          
-4                                          |4                                          
----------------------------------------------------------------------------------------
-Cell pin lists are equivalent.
-Device classes sky130_fd_pr__pfet_01v8 and sky130_fd_pr__pfet_01v8 are equivalent.
-Flattening unmatched subcell sky130_fd_pr__pfet_01v8_E8WXEL in circuit power-fet (0)(1 instance)
-
-Class power-fet (0):  Merged 1023 parallel devices.
+Cell top-level (1) disconnected node: proxyVIN
 Subcircuit summary:
-Circuit 1: power-fet                       |Circuit 2: power-fet                       
+Circuit 1: top-module-2                    |Circuit 2: top-level                       
 -------------------------------------------|-------------------------------------------
-sky130_fd_pr__pfet_01v8 (1024->1)          |sky130_fd_pr__pfet_01v8 (16->1)            
-Number of devices: 1                       |Number of devices: 1                       
-Number of nets: 3                          |Number of nets: 3                          
+divider-feedback (1)                       |divider-feedback (1)                       
+sky130_fd_pr__cap_mim_m3_1 (8->2)          |sky130_fd_pr__cap_mim_m3_1 (8->2)          
+bias-network (1)                           |bias-network (1)                           
+error-amplifier (2)                        |error-amplifier (2)                        
+sky130_fd_pr__pfet_01v8 (1024->1)          |sky130_fd_pr__pfet_01v8 (4->1)             
+Number of devices: 7                       |Number of devices: 7                       
+Number of nets: 9 **Mismatch**             |Number of nets: 10 **Mismatch**            
 ---------------------------------------------------------------------------------------
-Netlists match uniquely.
+NET mismatches: Class fragments follow (with fanout counts):
+Circuit 1: top-module-2                    |Circuit 2: top-level                       
+
+---------------------------------------------------------------------------------------
+Net: divider-feedback_0/VFB                |Net: net6                                  
+  divider-feedback/VFB = 1                 |  error-amplifier/VN = 1                   
+                                           |  divider-feedback/VFB = 1                 
+                                           |                                           
+Net: error-amplifier_1/VN                  |Net: net2                                  
+  error-amplifier/VN = 1                   |  sky130_fd_pr__cap_mim_m3_1/2 = 1         
+                                           |  error-amplifier/OUT = 1                  
+                                           |  error-amplifier/VN = 1                   
+                                           |                                           
+Net: error-amplifier_0/VN                  |Net: net1                                  
+  sky130_fd_pr__cap_mim_m3_1/2 = 1         |  sky130_fd_pr__cap_mim_m3_1/2 = 1         
+  bias-network/IBIAS1 = 1                  |  sky130_fd_pr__pfet_01v8/2 = 1            
+  error-amplifier/VN = 1                   |  error-amplifier/OUT = 1                  
+  error-amplifier/IBIAS_5uA = 1            |                                           
+  error-amplifier/OUT = 1                  |                                           
+                                           |                                           
+Net: VIN                                   |Net: VIN                                   
+  error-amplifier/VIN = 2                  |  error-amplifier/VIN = 2                  
+  sky130_fd_pr__pfet_01v8/(1|3) = 1        |  sky130_fd_pr__pfet_01v8/(1|3) = 1        
+  sky130_fd_pr__pfet_01v8/4 = 1            |  sky130_fd_pr__pfet_01v8/4 = 1            
+  sky130_fd_pr__pfet_01v8/2 = 1            |                                           
+  sky130_fd_pr__cap_mim_m3_1/2 = 1         |                                           
+  error-amplifier/OUT = 1                  |                                           
+                                           |                                           
+(no matching net)                          |Net: net4                                  
+                                           |  error-amplifier/IBIAS_5uA = 1            
+                                           |  bias-network/IBIAS1 = 1                  
+---------------------------------------------------------------------------------------
+Netlists do not match.
+Port matching may fail to disambiguate symmetries.
 
 Subcircuit pins:
-Circuit 1: power-fet                       |Circuit 2: power-fet                       
+Circuit 1: top-module-2                    |Circuit 2: top-level                       
 -------------------------------------------|-------------------------------------------
-A                                          |A                                          
-B                                          |B                                          
-VIN                                        |VIN                                        
+VIN                                        |(no pin, node is net6)                     
+OUT                                        |OUT                                        
+proxyVIN                                   |proxyVIN                                   
+(no pin, node is VIN)                      |VIN                                        
+(no pin, node is VSUBS)                    |VSS                                        
+(no pin, node is bias-network_0/VDD)       |VDD                                        
+proxyVSS                                   |(no matching pin)                          
+proxyVDD                                   |(no matching pin)                          
 ---------------------------------------------------------------------------------------
-Cell pin lists are equivalent.
-Device classes power-fet and power-fet are equivalent.
+Cell pin lists for top-module-2 and top-level altered to match.
+Device classes top-module-2 and top-level are equivalent.
 
-Final result: Circuits match uniquely.
-.
+Final result: Top level cell failed pin matching.

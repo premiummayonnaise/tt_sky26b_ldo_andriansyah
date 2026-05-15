@@ -1,0 +1,25 @@
+* OP sanity check - PEX LDO (.subckt ldo_flat OUT VIN VSS VDD)
+* Run this FIRST. Confirms bias network biases, V(OUT) is regulated,
+* and supply currents are sane before chasing AC/transient.
+.lib /foss/pdks/sky130A/libs.tech/combined/sky130.lib.spice tt
+.include "ldo_flat.spice"
+
+V_GND VSS GND 0
+V_VIN VIN VSS DC 1.98
+V_VDD VDD VSS DC 1.8
+I_LOAD OUT VSS 4m
+
+X_LDO OUT VIN VSS VDD ldo_flat
+
+.control
+op
+print v(OUT) v(VIN) v(VDD) v(VSS)
+print i(V_VIN) i(V_VDD)
+* Expected:
+*   v(OUT)  ~ 1.2V (set by internal divider)
+*   i(V_VIN) ~ -(4mA + Iq_EA + Iq_passgate_static)
+*   i(V_VDD) ~ -Iq_bias_network (tens of uA)
+.endc
+
+.GLOBAL GND
+.end

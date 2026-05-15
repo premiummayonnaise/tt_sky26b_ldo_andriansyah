@@ -1,0 +1,89 @@
+** sch_path: /foss/designs/2026/tt_sky26b_ldo_andriansyah/xschem/top-level/schematics/top-level.sch
+.subckt top-level VIN VSS OUT VDD
+*.PININFO VIN:I VSS:B OUT:O VDD:B
+XC2 OUT net2 sky130_fd_pr__cap_mim_m3_1 W=6 L=6 m=4
+XC3 OUT net1 sky130_fd_pr__cap_mim_m3_1 W=6 L=6 m=4
+x3 VIN net3 net6 net4 net2 VSS error-amplifier
+XM2 OUT net1 VIN VIN sky130_fd_pr__pfet_01v8 L=0.2 W=125 nf=128 m=4
+x4 VIN net3 net2 net5 net1 VSS error-amplifier
+x2 VDD net4 net5 net3 VSS bias-network
+x5 OUT net6 VSS divider-feedback
+.ends
+
+* expanding   symbol:  /foss/designs/2026/tt_sky26b_ldo_andriansyah/xschem/error-amplifier/error-amplifier.sym # of pins=6
+** sym_path: /foss/designs/2026/tt_sky26b_ldo_andriansyah/xschem/error-amplifier/error-amplifier.sym
+** sch_path: /foss/designs/2026/tt_sky26b_ldo_andriansyah/xschem/error-amplifier/error-amplifier.sch
+.subckt error-amplifier VIN VP VN IBIAS_5uA OUT VSS
+*.PININFO IBIAS_5uA:I VN:I VP:I VIN:B VSS:B OUT:O
+XM1 net2 net2 VSS VSS sky130_fd_pr__nfet_01v8 L=0.6 W=4.2 nf=4 m=1
+XM2 OUT net2 VSS VSS sky130_fd_pr__nfet_01v8 L=0.6 W=4.2 nf=4 m=1
+XM3 net2 VN net1 VIN sky130_fd_pr__pfet_01v8 L=0.6 W=28 nf=4 m=1
+XM4 OUT VP net1 VIN sky130_fd_pr__pfet_01v8 L=0.6 W=28 nf=4 m=1
+XM5 net1 IBIAS_5uA VIN VIN sky130_fd_pr__pfet_01v8 L=0.6 W=6.6 nf=4 m=1
+XM6 IBIAS_5uA IBIAS_5uA VIN VIN sky130_fd_pr__pfet_01v8 L=0.6 W=6.6 nf=4 m=1
+.ends
+
+
+* expanding   symbol:  /foss/designs/2026/tt_sky26b_ldo_andriansyah/xschem/bias-net/schematics/bias-network.sym # of pins=5
+** sym_path: /foss/designs/2026/tt_sky26b_ldo_andriansyah/xschem/bias-net/schematics/bias-network.sym
+** sch_path: /foss/designs/2026/tt_sky26b_ldo_andriansyah/xschem/bias-net/schematics/bias-network.sch
+.subckt bias-network VDD IBIAS1 IBIAS2 VREF VSS
+*.PININFO VDD:B VSS:B IBIAS1:O IBIAS2:O VREF:O
+XM2 VREF VREF VSS VSS sky130_fd_pr__nfet_01v8 L=2 W=3 nf=4 m=2
+XR1 VREF net1 VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR2 net2 net1 VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR3 net2 net3 VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR4 net4 net3 VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR5 net4 net5 VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR6 net9 net10 VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR7 net9 net8 VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR8 net7 net8 VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR9 net7 net6 VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR10 net5 net6 VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XM1 IBIAS1 VREF VSS VSS sky130_fd_pr__nfet_01v8 L=2 W=3 nf=4 m=2
+XM3 IBIAS2 VREF VSS VSS sky130_fd_pr__nfet_01v8 L=2 W=3 nf=4 m=2
+XR11 net10 net11 VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR12 net12 net11 VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR13 net12 net13 VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR14 net14 net13 VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR15 net14 net15 VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR16 net19 VDD VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR17 net19 net18 VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR18 net17 net18 VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR19 net17 net16 VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR20 net15 net16 VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR21 VSS VSS VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR22 VSS VSS VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+.ends
+
+
+* expanding   symbol:  /foss/designs/2026/tt_sky26b_ldo_andriansyah/xschem/divider-feedback/schematics/divider-feedback.sym # of
+*+ pins=3
+** sym_path: /foss/designs/2026/tt_sky26b_ldo_andriansyah/xschem/divider-feedback/schematics/divider-feedback.sym
+** sch_path: /foss/designs/2026/tt_sky26b_ldo_andriansyah/xschem/divider-feedback/schematics/divider-feedback.sch
+.subckt divider-feedback A VFB VSS
+*.PININFO VSS:B A:B VFB:O
+XR2 VFB net1 VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR3 net1 net2 VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR4 net2 net3 VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR5 net3 net4 VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR6 net4 net5 VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR7 net5 net6 VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR8 net6 net7 VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR9 net7 net8 VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR10 net8 net9 VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR11 net9 A VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR13 VSS net10 VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR14 net10 net11 VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR15 net11 net12 VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR16 net12 net13 VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR17 net13 net14 VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR18 net14 net15 VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR19 net15 net16 VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR20 net16 net17 VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR21 net17 net18 VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR22 net18 VFB VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR23 VSS VSS VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+XR24 VSS VSS VSS sky130_fd_pr__res_xhigh_po_0p69 L=6.9 mult=1 m=1
+.ends
+

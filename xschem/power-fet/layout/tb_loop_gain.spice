@@ -1,0 +1,51 @@
+* Loop Gain - PEX LDO
+* PEX exposes OUT/VIN/VSS/VDD only — VFB is internal to the divider-feedback
+* block, so we cannot inject at VFB the way the original schematic did.
+* Instead: Middlebrook break at OUT.
+*   Lbrk = 1T  → DC short (loop closed for bias) + AC open (loop broken)
+*   Vinj = AC 1 → injection source
+*   X_LDO drives OUT_PROBE; load + output cap sit on OUT.
+*   Loop sees: error amp -> pass FET -> output -> internal divider -> back to EA
+*   T(s) = -V(OUT_PROBE)/V(OUT)
+.lib /foss/pdks/sky130A/libs.tech/combined/sky130.lib.spice ss
+.include "ldo_flat.spice"
+
+V_GND  VSS GND 0
+V_VIN  VIN VSS dc 1.98
+V_VDD  VDD VSS dc 1.8
+I_LOAD OUT VSS 2m
+
+Lbrk OUT_PROBE OUT 1T
+Vinj OUT OUT_PROBE AC 1
+
+X_LDO OUT_PROBE VIN VSS VDD ldo_flat
+
+* Output decoupling + bondwire (from original loop-gain TB)
+C4 OUT net2 4 m=1
+L1 net2 net3 2n m=1
+R1 VSS net3 100 m=1
+
+.control
+ac dec 20 1 100G
+let T         = -v(OUT_PROBE)/v(OUT)
+let gain_db   = db(T)
+let phase_deg = ph(T) * 180/PI
+meas ac ugf when gain_db=0 fall=1
+meas ac phase_at_ugf find phase_deg at=ugf
+let phase_wrapped = phase_at_ugf
+if phase_wrapped > 180
+  let phase_wrapped = phase_wrapped - 360
+end
+if phase_wrapped < -180
+  let phase_wrapped = phase_wrapped + 360
+end
+let pm_actual = 180 + phase_wrapped
+echo Unity Gain Frequency: $&ugf Hz
+echo Raw phase at UGF:     $&phase_at_ugf Degrees
+echo Unwrapped phase:      $&phase_wrapped Degrees
+echo Calculated Phase Margin: $&pm_actual Degrees
+plot gain_db phase_deg
+.endc
+
+.GLOBAL GND
+.end

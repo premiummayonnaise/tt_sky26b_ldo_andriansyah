@@ -1,0 +1,1292 @@
+| units: 500000 tech: sky130A format: MIT
+x error-amplifier_0.VN a_17816_948# a_17638_330# VIN s=40600,1458 d=81200,2916 l=120 w=1400 x=18942 y=948 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=9258 y=-5646 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=20494 y=-2974 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=14982 y=-5312 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=12650 y=-4310 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=18798 y=-970 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=8834 y=-4310 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=12862 y=-4978 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=10530 y=-3976 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=19858 y=-2974 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=19010 y=-5312 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=17526 y=-1972 sky130_fd_pr__pfet_01v8
+x error-amplifier_1.IBIAS_5uA VIN a_20816_948# VIN s=9570,388 d=9570,388 l=120 w=330 x=21586 y=3020 sky130_fd_pr__pfet_01v8
+x a_12462_720# a_12062_2068# a_12462_288# VSS s=59616,1140 d=59616,1140 l=1348 w=0 x=12462 y=720 sky130_fd_pr__res_xhigh_po_0p69
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=15830 y=-1304 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=14770 y=-970 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=12438 y=-2974 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=11590 y=-3642 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=10106 y=-1972 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=10742 y=-2306 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=21342 y=-3642 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=13710 y=-5646 sky130_fd_pr__pfet_01v8
+x error-amplifier_0.IBIAS_5uA a_17816_948# VIN VIN s=9570,388 d=9570,388 l=120 w=330 x=18764 y=3020 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=13498 y=-2640 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=17102 y=-3308 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=16466 y=-5980 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=9046 y=-5646 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=20282 y=-2974 sky130_fd_pr__pfet_01v8
+x OUT power-fet_0.B s=2012160,5704 l=1200 w=1200 x=20280 y=5680 sky130_fd_pr__cap_mim_m3_1
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=14770 y=-5312 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=15618 y=-4644 sky130_fd_pr__pfet_01v8
+x a_13400_4862# VSS VSS VSS s=59616,1140 l=1348 w=0 x=13400 y=4862 sky130_fd_pr__res_xhigh_po_0p69
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=16678 y=-970 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=21766 y=-970 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=12650 y=-4978 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=8834 y=-4978 sky130_fd_pr__pfet_01v8
+x a_9360_4862# VDD a_9360_4430# VSS s=59616,1140 d=59616,1140 l=1348 w=0 x=9360 y=4862 sky130_fd_pr__res_xhigh_po_0p69
+x error-amplifier_1.VP VSS error-amplifier_1.VP VSS s=4350,208 d=8700,416 l=400 w=150 x=15515 y=4355 sky130_fd_pr__nfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=22190 y=-970 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=19646 y=-2974 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=17314 y=-1972 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=17950 y=-2306 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=16678 y=-4310 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=12650 y=-970 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=20494 y=-1304 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=14558 y=-3976 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=9894 y=-4644 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=12226 y=-2974 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=21130 y=-3642 sky130_fd_pr__pfet_01v8
+x error-amplifier_1.VP VSS error-amplifier_1.VP VSS s=4350,208 d=8700,416 l=400 w=150 x=15515 y=4723 sky130_fd_pr__nfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=10530 y=-2306 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=12862 y=-3308 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=21978 y=-5980 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=19858 y=-1304 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=16890 y=-1638 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=13286 y=-2640 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=16254 y=-5980 sky130_fd_pr__pfet_01v8
+x error-amplifier_1.VP power-fet_0.B a_20816_948# VIN s=40600,1458 d=40600,1458 l=120 w=1400 x=21052 y=948 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=17738 y=-5646 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=12438 y=-1304 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=20070 y=-2974 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=15406 y=-4644 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=14558 y=-970 sky130_fd_pr__pfet_01v8
+x a_12160_4862# a_11980_6210# a_12160_4430# VSS s=59616,1140 d=59616,1140 l=1348 w=0 x=12160 y=4862 sky130_fd_pr__res_xhigh_po_0p69
+x error-amplifier_1.VP power-fet_0.B a_20816_948# VIN s=40600,1458 d=40600,1458 l=120 w=1400 x=21764 y=948 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=19010 y=-970 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=20070 y=-970 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=17102 y=-1972 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=19434 y=-2974 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=10318 y=-5646 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=18798 y=-5312 sky130_fd_pr__pfet_01v8
+x a_9760_4862# a_9560_6210# a_9760_4430# VSS s=59616,1140 d=59616,1140 l=1348 w=0 x=9760 y=4862 sky130_fd_pr__res_xhigh_po_0p69
+x a_11862_720# a_11462_2068# a_11862_288# VSS s=59616,1140 d=59616,1140 l=1348 w=0 x=11862 y=720 sky130_fd_pr__res_xhigh_po_0p69
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=16678 y=-4978 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=16466 y=-4310 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=10530 y=-970 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=20282 y=-1304 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=14346 y=-3976 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=9682 y=-4644 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=12014 y=-2974 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=13922 y=-2640 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=8834 y=-3308 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=12650 y=-3308 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=11378 y=-5312 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=21766 y=-5980 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=19646 y=-1304 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=13074 y=-2640 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=16042 y=-5980 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=20918 y=-4644 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=14558 y=-2306 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=9258 y=-2640 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=22190 y=-3976 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=17526 y=-5646 sky130_fd_pr__pfet_01v8
+x a_17638_330# error-amplifier_1.VN VSS VSS s=6090,268 d=6090,268 l=120 w=210 x=18052 y=330 sky130_fd_pr__nfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=12226 y=-1304 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=12862 y=-1972 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=12438 y=-970 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=21978 y=-4310 sky130_fd_pr__pfet_01v8
+x a_17638_330# error-amplifier_1.VN VSS VSS s=6090,268 d=6090,268 l=120 w=210 x=18764 y=330 sky130_fd_pr__nfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=19222 y=-2974 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=10106 y=-5646 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=18586 y=-5312 sky130_fd_pr__pfet_01v8
+x a_12560_4862# a_12360_6210# a_12560_4430# VSS s=59616,1140 d=59616,1140 l=1348 w=0 x=12560 y=4862 sky130_fd_pr__res_xhigh_po_0p69
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=13498 y=-1638 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=16466 y=-4978 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=16254 y=-4310 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=20070 y=-1304 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=14134 y=-3976 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=9470 y=-4644 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=13710 y=-2640 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=11166 y=-5312 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=9682 y=-970 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=19434 y=-1304 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=21554 y=-5980 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=15194 y=-3642 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=10954 y=-4644 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=9046 y=-2640 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=16678 y=-3308 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=20706 y=-4644 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=14346 y=-2306 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=14982 y=-2974 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=17314 y=-5646 sky130_fd_pr__pfet_01v8
+x a_10262_720# a_9862_2068# a_10262_288# VSS s=59616,1140 d=59616,1140 l=1348 w=0 x=10262 y=720 sky130_fd_pr__res_xhigh_po_0p69
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=12014 y=-1304 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=12650 y=-1972 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=10318 y=-970 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=8834 y=-1972 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=21978 y=-4978 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=21766 y=-4310 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=19010 y=-2974 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=18374 y=-5312 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=13286 y=-1638 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=22190 y=-2306 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=11802 y=-5312 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=16254 y=-4978 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=16042 y=-4310 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=15830 y=-3642 sky130_fd_pr__pfet_01v8
+x a_12960_4862# a_12760_6210# a_12960_4430# VSS s=59616,1140 d=59616,1140 l=1348 w=0 x=12960 y=4862 sky130_fd_pr__res_xhigh_po_0p69
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=11590 y=-5980 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=19222 y=-1304 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=21342 y=-5980 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=10742 y=-4644 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=16466 y=-3308 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=14134 y=-2306 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=17738 y=-2640 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=14770 y=-2974 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=17102 y=-5646 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=13922 y=-1638 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=10318 y=-2640 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=21766 y=-4978 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=21554 y=-4310 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=18162 y=-5312 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=13074 y=-1638 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=16678 y=-1972 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=16042 y=-4978 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=14982 y=-1304 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=9258 y=-1638 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=17950 y=-4644 sky130_fd_pr__pfet_01v8
+x error-amplifier_1.VP a_17816_948# error-amplifier_1.VN VIN s=40600,1458 d=40600,1458 l=120 w=1400 x=17874 y=948 sky130_fd_pr__pfet_01v8
+x a_20638_330# VSS power-fet_0.B VSS s=6090,268 d=6090,268 l=120 w=210 x=21586 y=330 sky130_fd_pr__nfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=20494 y=-3642 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=19010 y=-1304 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=21978 y=-3308 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=21130 y=-5980 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=12862 y=-5646 sky130_fd_pr__pfet_01v8
+x error-amplifier_1.IBIAS_5uA error-amplifier_1.IBIAS_5uA VIN VIN s=9570,388 d=9570,388 l=120 w=330 x=21408 y=3020 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=10530 y=-4644 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=16254 y=-3308 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=19858 y=-3642 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=17526 y=-2640 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=16890 y=-3976 sky130_fd_pr__pfet_01v8
+x a_11160_4862# a_11160_6210# a_10960_4430# VSS s=59616,1140 d=59616,1140 l=1348 w=0 x=11160 y=4862 sky130_fd_pr__res_xhigh_po_0p69
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=13710 y=-1638 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=11590 y=-4310 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=10106 y=-2640 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=12438 y=-3642 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=21554 y=-4978 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=21342 y=-4310 sky130_fd_pr__pfet_01v8
+x error-amplifier_1.IBIAS_5uA a_20816_948# VIN VIN s=9570,388 d=9570,388 l=120 w=330 x=21052 y=3020 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=18798 y=-2974 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=16466 y=-1972 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=14770 y=-1304 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=9046 y=-1638 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=11378 y=-2974 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=20282 y=-3642 sky130_fd_pr__pfet_01v8
+x error-amplifier_0.IBIAS_5uA VIN error-amplifier_0.IBIAS_5uA VIN s=9570,388 d=9570,388 l=120 w=330 x=18230 y=3020 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=21766 y=-3308 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=12650 y=-5646 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=15618 y=-5312 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=8834 y=-5646 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=16042 y=-3308 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=19646 y=-3642 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=19646 y=-970 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=17314 y=-2640 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=9894 y=-5312 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=11590 y=-4978 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=14558 y=-4644 sky130_fd_pr__pfet_01v8
+x a_9662_720# a_9662_2068# a_9262_288# VSS s=59616,1140 d=59616,1140 l=1348 w=0 x=9662 y=720 sky130_fd_pr__res_xhigh_po_0p69
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=21978 y=-1972 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=12226 y=-3642 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=21342 y=-4978 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=21130 y=-4310 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=18586 y=-2974 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=11590 y=-970 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=16254 y=-1972 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=16890 y=-2306 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=17738 y=-1638 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=13498 y=-3976 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=11166 y=-2974 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=20070 y=-3642 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=21554 y=-3308 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=15406 y=-5312 sky130_fd_pr__pfet_01v8
+x error-amplifier_1.VN a_20638_330# a_20816_948# VIN s=81200,2916 d=40600,1458 l=120 w=1400 x=20696 y=948 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=18798 y=-1304 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=10318 y=-1638 sky130_fd_pr__pfet_01v8
+x error-amplifier_1.IBIAS_5uA VIN a_20816_948# VIN s=9570,388 d=9570,388 l=120 w=330 x=20874 y=3020 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=19434 y=-3642 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=13498 y=-970 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=17526 y=-970 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=17102 y=-2640 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=15194 y=-5980 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=11378 y=-1304 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=16678 y=-5646 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=9682 y=-5312 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=12014 y=-3642 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=14346 y=-4644 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=21766 y=-1972 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=21130 y=-4978 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=18374 y=-2974 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=16042 y=-1972 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=11802 y=-2974 sky130_fd_pr__pfet_01v8
+x error-amplifier_1.VN a_20638_330# a_20816_948# VIN s=40600,1458 d=40600,1458 l=120 w=1400 x=21408 y=948 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=17526 y=-1638 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=20918 y=-5312 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=13286 y=-3976 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=22190 y=-4644 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=11590 y=-3308 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=10106 y=-1638 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=12862 y=-2640 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=21342 y=-3308 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=15830 y=-5980 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=18586 y=-1304 sky130_fd_pr__pfet_01v8
+x OUT error-amplifier_1.VN s=2012160,5704 l=1200 w=1200 x=18452 y=4160 sky130_fd_pr__cap_mim_m3_1
+x a_12062_720# a_12062_2068# a_11662_288# VSS s=59616,1140 d=59616,1140 l=1348 w=0 x=12062 y=720 sky130_fd_pr__res_xhigh_po_0p69
+x a_17638_330# a_17638_330# VSS VSS s=12180,536 d=6090,268 l=120 w=210 x=17696 y=330 sky130_fd_pr__nfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=19222 y=-3642 sky130_fd_pr__pfet_01v8
+x error-amplifier_1.VP error-amplifier_0.IBIAS_5uA VSS VSS s=4350,208 d=4350,208 l=400 w=150 x=15054 y=5238 sky130_fd_pr__nfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=11378 y=-970 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=15406 y=-970 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=11166 y=-1304 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=13498 y=-2306 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=16466 y=-5646 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=9470 y=-5312 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=14134 y=-4644 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=21554 y=-1972 sky130_fd_pr__pfet_01v8
+x error-amplifier_1.VP error-amplifier_0.IBIAS_5uA VSS VSS s=4350,208 d=4350,208 l=400 w=150 x=15054 y=5606 sky130_fd_pr__nfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=18162 y=-2974 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=13922 y=-3976 sky130_fd_pr__pfet_01v8
+x error-amplifier_1.VP error-amplifier_1.VP VSS VSS s=8700,416 d=4350,208 l=400 w=150 x=14141 y=4355 sky130_fd_pr__nfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=10954 y=-5312 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=15194 y=-4310 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=17314 y=-1638 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=20706 y=-5312 sky130_fd_pr__pfet_01v8
+x a_17638_330# a_17638_330# VSS VSS s=6090,268 d=6090,268 l=120 w=210 x=18408 y=330 sky130_fd_pr__nfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=9258 y=-3976 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=13074 y=-3976 sky130_fd_pr__pfet_01v8
+x error-amplifier_1.VP error-amplifier_1.VP VSS VSS s=8700,416 d=4350,208 l=400 w=150 x=14141 y=4723 sky130_fd_pr__nfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=14982 y=-3642 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=8834 y=-2640 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=12650 y=-2640 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=21130 y=-3308 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=18374 y=-1304 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=20494 y=-5980 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=11802 y=-1304 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=19010 y=-3642 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=21978 y=-5646 sky130_fd_pr__pfet_01v8
+x a_10160_4862# a_9960_6210# a_10160_4430# VSS s=59616,1140 d=59616,1140 l=1348 w=0 x=10160 y=4862 sky130_fd_pr__res_xhigh_po_0p69
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=13286 y=-2306 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=19858 y=-5980 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=16254 y=-5646 sky130_fd_pr__pfet_01v8
+x a_20638_330# VSS a_20638_330# VSS s=6090,268 d=6090,268 l=120 w=210 x=21230 y=330 sky130_fd_pr__nfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=11590 y=-1972 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=21342 y=-1972 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=15830 y=-4310 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=13710 y=-3976 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=12438 y=-5980 sky130_fd_pr__pfet_01v8
+x a_20638_330# VSS a_20638_330# VSS s=6090,268 d=12180,536 l=120 w=210 x=21942 y=330 sky130_fd_pr__nfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=10742 y=-5312 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=17102 y=-1638 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=15194 y=-4978 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=9046 y=-3976 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=15618 y=-2974 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=14770 y=-3642 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=20282 y=-5980 sky130_fd_pr__pfet_01v8
+x a_11462_720# a_11462_2068# a_11062_288# VSS s=59616,1140 d=59616,1140 l=1348 w=0 x=11462 y=720 sky130_fd_pr__res_xhigh_po_0p69
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=18162 y=-1304 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=13922 y=-2306 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=21766 y=-5646 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=13074 y=-2306 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=16678 y=-2640 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=9258 y=-2306 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=9894 y=-2974 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=19646 y=-5980 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=16042 y=-5646 sky130_fd_pr__pfet_01v8
+x error-amplifier_1.IBIAS_5uA VIN error-amplifier_1.IBIAS_5uA VIN s=9570,388 d=19140,776 l=120 w=330 x=21942 y=3020 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=17950 y=-5312 sky130_fd_pr__pfet_01v8
+x a_10560_4862# a_10360_6210# a_10560_4430# VSS s=59616,1140 d=59616,1140 l=1348 w=0 x=10560 y=4862 sky130_fd_pr__res_xhigh_po_0p69
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=12862 y=-1638 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=21130 y=-1972 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=15830 y=-4978 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=20494 y=-4310 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=12226 y=-5980 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=10530 y=-5312 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=19858 y=-4310 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=16890 y=-4644 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=15406 y=-2974 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=17738 y=-3976 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=20070 y=-5980 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=13710 y=-2306 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=12438 y=-4310 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=18798 y=-3642 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=10318 y=-3976 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=21554 y=-5646 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=16466 y=-2640 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=15194 y=-3308 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=19434 y=-5980 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=9046 y=-2306 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=9682 y=-2974 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=15618 y=-1304 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=8834 y=-1638 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=12650 y=-1638 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=11378 y=-3642 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=20282 y=-4310 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=12014 y=-5980 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=20494 y=-4978 sky130_fd_pr__pfet_01v8
+x a_10960_4862# a_10760_6210# a_10960_4430# VSS s=59616,1140 d=59616,1140 l=1348 w=0 x=10960 y=4862 sky130_fd_pr__res_xhigh_po_0p69
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=20918 y=-2974 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=19646 y=-4310 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=9894 y=-1304 sky130_fd_pr__pfet_01v8
+x OUT error-amplifier_1.VN s=2012160,5704 l=1200 w=1200 x=16640 y=5680 sky130_fd_pr__cap_mim_m3_1
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=19858 y=-4978 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=17526 y=-3976 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=15830 y=-3308 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=11590 y=-5646 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=14558 y=-5312 sky130_fd_pr__pfet_01v8
+x a_10862_720# a_10462_2068# a_10862_288# VSS s=59616,1140 d=59616,1140 l=1348 w=0 x=10862 y=720 sky130_fd_pr__res_xhigh_po_0p69
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=18586 y=-970 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=21978 y=-2640 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=21342 y=-5646 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=12438 y=-4978 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=12226 y=-4310 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=18586 y=-3642 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=10106 y=-3976 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=16254 y=-2640 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=19222 y=-5980 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=17738 y=-2306 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=9470 y=-2974 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=15406 y=-1304 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=13498 y=-4644 sky130_fd_pr__pfet_01v8
+x a_9100_4862# VSS VSS VSS s=59616,1140 l=1348 w=0 x=9100 y=4862 sky130_fd_pr__res_xhigh_po_0p69
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=11166 y=-3642 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=20070 y=-4310 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=20282 y=-4978 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=15194 y=-1972 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=10318 y=-2306 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=10954 y=-2974 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=16678 y=-1638 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=20706 y=-2974 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=19434 y=-4310 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=9682 y=-1304 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=17314 y=-3976 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=19646 y=-4978 sky130_fd_pr__pfet_01v8
+x OUT power-fet_0.B s=2012160,5704 l=1200 w=1200 x=22092 y=5680 sky130_fd_pr__cap_mim_m3_1
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=20494 y=-3308 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=14982 y=-5980 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=14346 y=-5312 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=16466 y=-970 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=21554 y=-970 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=21766 y=-2640 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=21130 y=-5646 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=12226 y=-4978 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=12014 y=-4310 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=18374 y=-3642 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=20918 y=-1304 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=16042 y=-2640 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=11802 y=-3642 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=19010 y=-5980 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=17526 y=-2306 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=19858 y=-3308 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=22190 y=-5312 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=13286 y=-4644 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=15830 y=-1972 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=20070 y=-4978 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=12438 y=-3308 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=10106 y=-2306 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=10742 y=-2974 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=16466 y=-1638 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=19222 y=-4310 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=9470 y=-1304 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=17102 y=-3976 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=19434 y=-4978 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=20282 y=-3308 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=14770 y=-5980 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=14134 y=-5312 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=14346 y=-970 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=21554 y=-2640 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=12014 y=-4978 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=10954 y=-1304 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=18162 y=-3642 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=13922 y=-4644 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=20706 y=-1304 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=19646 y=-3308 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=17314 y=-2306 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=17950 y=-2974 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=13074 y=-4644 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=9258 y=-4644 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=20494 y=-1972 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=14982 y=-4310 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=21978 y=-1638 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=12226 y=-3308 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=12862 y=-3976 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=10530 y=-2974 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=16254 y=-1638 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=19858 y=-1972 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=19010 y=-4310 sky130_fd_pr__pfet_01v8
+x a_9262_720# OUT a_9262_288# VSS s=59616,1140 d=59616,1140 l=1348 w=0 x=9262 y=720 sky130_fd_pr__res_xhigh_po_0p69
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=19222 y=-4978 sky130_fd_pr__pfet_01v8
+x a_13262_720# VSS VSS VSS s=59616,1140 l=1348 w=0 x=13262 y=720 sky130_fd_pr__res_xhigh_po_0p69
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=11590 y=-2640 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=20070 y=-3308 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=12226 y=-970 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=12438 y=-1972 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=21342 y=-2640 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=10742 y=-1304 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=13710 y=-4644 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=19434 y=-3308 sky130_fd_pr__pfet_01v8
+x a_20638_330# VSS power-fet_0.B VSS s=6090,268 d=6090,268 l=120 w=210 x=20874 y=330 sky130_fd_pr__nfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=17102 y=-2306 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=18798 y=-5980 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=15194 y=-5646 sky130_fd_pr__pfet_01v8
+x error-amplifier_1.VP VSS error-amplifier_0.IBIAS_5uA VSS s=4350,208 d=4350,208 l=400 w=150 x=14596 y=5238 sky130_fd_pr__nfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=9046 y=-4644 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=20282 y=-1972 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=14982 y=-4978 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=14770 y=-4310 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=21766 y=-1638 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=12014 y=-3308 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=15618 y=-3642 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=12650 y=-3976 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=11378 y=-5980 sky130_fd_pr__pfet_01v8
+x error-amplifier_1.VP VSS error-amplifier_0.IBIAS_5uA VSS s=4350,208 d=4350,208 l=400 w=150 x=14596 y=5606 sky130_fd_pr__nfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=9470 y=-970 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=8834 y=-3976 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=16042 y=-1638 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=19646 y=-1972 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=19010 y=-4978 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=17950 y=-1304 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=14558 y=-2974 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=9894 y=-3642 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=10106 y=-970 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=12226 y=-1972 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=12862 y=-2306 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=21130 y=-2640 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=15830 y=-5646 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=10530 y=-1304 sky130_fd_pr__pfet_01v8
+x error-amplifier_0.IBIAS_5uA VIN a_17816_948# VIN s=9570,388 d=9570,388 l=120 w=330 x=18586 y=3020 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=19222 y=-3308 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=18586 y=-5980 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=16890 y=-5312 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=20070 y=-1972 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=14770 y=-4978 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=17738 y=-4644 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=21554 y=-1638 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=15406 y=-3642 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=11166 y=-5980 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=19434 y=-1972 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=10318 y=-4644 sky130_fd_pr__pfet_01v8
+x a_12662_720# a_12262_2068# a_12662_288# VSS s=59616,1140 d=59616,1140 l=1348 w=0 x=12662 y=720 sky130_fd_pr__res_xhigh_po_0p69
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=18798 y=-4310 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=16678 y=-3976 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=14346 y=-2974 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=14982 y=-3308 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=9682 y=-3642 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=12014 y=-1972 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=12650 y=-2306 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=11378 y=-4310 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=8834 y=-2306 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=20494 y=-5646 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=19010 y=-3308 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=9258 y=-970 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=18374 y=-5980 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=22190 y=-2974 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=20918 y=-3642 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=19858 y=-5646 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=11802 y=-5980 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=14558 y=-1304 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=11590 y=-1638 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=17526 y=-4644 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=21342 y=-1638 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=19222 y=-1972 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=12438 y=-5646 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=10106 y=-4644 sky130_fd_pr__pfet_01v8
+x error-amplifier_1.VP error-amplifier_1.VN a_17816_948# VIN s=40600,1458 d=40600,1458 l=120 w=1400 x=18052 y=948 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=18798 y=-4978 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=18586 y=-4310 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=16466 y=-3976 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=14134 y=-2974 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=14770 y=-3308 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=9470 y=-3642 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=13498 y=-5312 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=11166 y=-4310 sky130_fd_pr__pfet_01v8
+x error-amplifier_1.VP error-amplifier_1.VN a_17816_948# VIN s=40600,1458 d=40600,1458 l=120 w=1400 x=18764 y=948 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=20282 y=-5646 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=11378 y=-4978 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=15194 y=-2640 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=10954 y=-3642 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=18162 y=-5980 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=16678 y=-2306 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=20706 y=-3642 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=19646 y=-5646 sky130_fd_pr__pfet_01v8
+x a_11062_720# a_10662_2068# a_11062_288# VSS s=59616,1140 d=59616,1140 l=1348 w=0 x=11062 y=720 sky130_fd_pr__res_xhigh_po_0p69
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=14346 y=-1304 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=14982 y=-1972 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=17314 y=-4644 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=21130 y=-1638 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=12226 y=-5646 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=19010 y=-1972 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=21978 y=-3976 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=18586 y=-4978 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=18374 y=-4310 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=11802 y=-4310 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=19434 y=-970 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=20494 y=-970 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=22190 y=-1304 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=16254 y=-3976 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=13286 y=-5312 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=10954 y=-970 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=15830 y=-2640 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=20070 y=-5646 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=11166 y=-4978 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=18798 y=-3308 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=10742 y=-3642 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=16466 y=-2306 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=19434 y=-5646 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=14134 y=-1304 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=14770 y=-1972 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=17102 y=-4644 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=11378 y=-3308 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=15618 y=-5980 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=12014 y=-5646 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=21766 y=-3976 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=13922 y=-5312 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=18374 y=-4978 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=18162 y=-4310 sky130_fd_pr__pfet_01v8
+x error-amplifier_1.VP error-amplifier_1.IBIAS_5uA VSS VSS s=4350,208 d=4350,208 l=400 w=150 x=15054 y=6138 sky130_fd_pr__nfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=13286 y=-970 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=17314 y=-970 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=16042 y=-3976 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=11802 y=-4978 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=17950 y=-3642 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=13074 y=-5312 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=9894 y=-5980 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=9258 y=-5312 sky130_fd_pr__pfet_01v8
+x error-amplifier_1.VP error-amplifier_1.IBIAS_5uA VSS VSS s=4350,208 d=4350,208 l=400 w=150 x=15054 y=6506 sky130_fd_pr__nfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=20494 y=-2640 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=21978 y=-2306 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=10530 y=-3642 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=12862 y=-4644 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=18586 y=-3308 sky130_fd_pr__pfet_01v8
+x error-amplifier_1.VP a_20816_948# power-fet_0.B VIN s=40600,1458 d=40600,1458 l=120 w=1400 x=21586 y=948 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=16254 y=-2306 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=19858 y=-2640 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=16890 y=-2974 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=19222 y=-5646 sky130_fd_pr__pfet_01v8
+x a_10462_720# a_10462_2068# a_10062_288# VSS s=59616,1140 d=59616,1140 l=1348 w=0 x=10462 y=720 sky130_fd_pr__res_xhigh_po_0p69
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=11166 y=-3308 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=12438 y=-2640 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=15406 y=-5980 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=21554 y=-3976 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=15194 y=-1638 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=18798 y=-1972 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=13710 y=-5312 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=18162 y=-4978 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=11166 y=-970 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=11378 y=-1972 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=20282 y=-2640 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=9682 y=-5980 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=9046 y=-5312 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=14982 y=-5646 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=15618 y=-4310 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=21766 y=-2306 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=12650 y=-4644 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=8834 y=-4644 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=18374 y=-3308 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=16042 y=-2306 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=19646 y=-2640 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=11802 y=-3308 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=19010 y=-5646 sky130_fd_pr__pfet_01v8
+x a_17638_330# VSS error-amplifier_1.VN VSS s=6090,268 d=6090,268 l=120 w=210 x=18586 y=330 sky130_fd_pr__nfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=20918 y=-5980 sky130_fd_pr__pfet_01v8
+x error-amplifier_0.IBIAS_5uA error-amplifier_0.IBIAS_5uA VIN VIN s=9570,388 d=9570,388 l=120 w=330 x=18408 y=3020 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=15830 y=-1638 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=14558 y=-3642 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=9894 y=-4310 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=12226 y=-2640 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=11590 y=-3976 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=21342 y=-3976 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=18586 y=-1972 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=16890 y=-1304 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=13498 y=-2974 sky130_fd_pr__pfet_01v8
+x error-amplifier_0.IBIAS_5uA a_17816_948# VIN VIN s=9570,388 d=9570,388 l=120 w=330 x=18052 y=3020 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=11166 y=-1972 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=20070 y=-2640 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=9470 y=-5980 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=17738 y=-5312 sky130_fd_pr__pfet_01v8
+x error-amplifier_1.VP error-amplifier_1.VP VSS VSS s=4350,208 d=4350,208 l=400 w=150 x=15057 y=4355 sky130_fd_pr__nfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=14770 y=-5646 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=15618 y=-4978 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=15406 y=-4310 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=21554 y=-2306 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=18162 y=-3308 sky130_fd_pr__pfet_01v8
+x a_9560_4862# a_9560_6210# a_9360_4430# VSS s=59616,1140 d=59616,1140 l=1348 w=0 x=9560 y=4862 sky130_fd_pr__res_xhigh_po_0p69
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=19434 y=-2640 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=10954 y=-5980 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=10318 y=-5312 sky130_fd_pr__pfet_01v8
+x error-amplifier_1.VP error-amplifier_1.VP VSS VSS s=4350,208 d=4350,208 l=400 w=150 x=15057 y=4723 sky130_fd_pr__nfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=20706 y=-5980 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=16678 y=-4644 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=14346 y=-3642 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=9682 y=-4310 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=9894 y=-4978 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=20494 y=-1638 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=12014 y=-2640 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=21130 y=-3976 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=11802 y=-1972 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=18374 y=-1972 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=19858 y=-1638 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=13286 y=-2974 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=20918 y=-4310 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=11590 y=-2306 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=22190 y=-3642 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=17526 y=-5312 sky130_fd_pr__pfet_01v8
+x error-amplifier_1.IBIAS_5uA error-amplifier_1.IBIAS_5uA VIN VIN s=19140,776 d=9570,388 l=120 w=330 x=20696 y=3020 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=12438 y=-1638 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=21342 y=-2306 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=15406 y=-4978 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=19222 y=-2640 sky130_fd_pr__pfet_01v8
+x a_12360_4862# a_12360_6210# a_12160_4430# VSS s=59616,1140 d=59616,1140 l=1348 w=0 x=12360 y=4862 sky130_fd_pr__res_xhigh_po_0p69
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=18798 y=-5646 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=10742 y=-5980 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=10106 y=-5312 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=13498 y=-1304 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=16466 y=-4644 sky130_fd_pr__pfet_01v8
+x a_9960_4862# a_9960_6210# a_9760_4430# VSS s=59616,1140 d=59616,1140 l=1348 w=0 x=9960 y=4862 sky130_fd_pr__res_xhigh_po_0p69
+x error-amplifier_0.IBIAS_5uA VIN a_17816_948# VIN s=9570,388 d=9570,388 l=120 w=330 x=17874 y=3020 sky130_fd_pr__pfet_01v8
+x a_9862_720# a_9862_2068# a_9462_288# VSS s=59616,1140 d=59616,1140 l=1348 w=0 x=9862 y=720 sky130_fd_pr__res_xhigh_po_0p69
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=14134 y=-3642 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=9470 y=-4310 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=9682 y=-4978 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=20282 y=-1638 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=15618 y=-3308 sky130_fd_pr__pfet_01v8
+x a_11580_4862# a_11580_6210# a_11360_4430# VSS s=59616,1140 d=59616,1140 l=1348 w=0 x=11580 y=4862 sky130_fd_pr__res_xhigh_po_0p69
+x error-amplifier_0.VN a_17638_330# a_17816_948# VIN s=81200,2916 d=40600,1458 l=120 w=1400 x=17696 y=948 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=13922 y=-2974 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=11378 y=-5646 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=18162 y=-1972 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=19646 y=-1638 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=10954 y=-4310 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=13074 y=-2974 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=20918 y=-4978 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=20706 y=-4310 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=14982 y=-2640 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=9258 y=-2974 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=9894 y=-3308 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=17314 y=-5312 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=12226 y=-1638 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=21130 y=-2306 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=17950 y=-5980 sky130_fd_pr__pfet_01v8
+x error-amplifier_0.VN a_17638_330# a_17816_948# VIN s=40600,1458 d=40600,1458 l=120 w=1400 x=18408 y=948 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=19010 y=-2640 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=21978 y=-4644 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=18586 y=-5646 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=10530 y=-5980 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=13286 y=-1304 sky130_fd_pr__pfet_01v8
+x OUT error-amplifier_1.VN s=2012160,5704 l=1200 w=1200 x=18452 y=5680 sky130_fd_pr__cap_mim_m3_1
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=16254 y=-4644 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=9470 y=-4978 sky130_fd_pr__pfet_01v8
+x a_12760_4862# a_12760_6210# a_12560_4430# VSS s=59616,1140 d=59616,1140 l=1348 w=0 x=12760 y=4862 sky130_fd_pr__res_xhigh_po_0p69
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=20070 y=-1638 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=15406 y=-3308 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=18374 y=-970 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=13710 y=-2974 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=11166 y=-5646 sky130_fd_pr__pfet_01v8
+x a_11980_4862# a_11980_6210# a_11760_4430# VSS s=59616,1140 d=59616,1140 l=1348 w=0 x=11980 y=4862 sky130_fd_pr__res_xhigh_po_0p69
+x error-amplifier_1.VN a_20816_948# a_20638_330# VIN s=40600,1458 d=40600,1458 l=120 w=1400 x=21230 y=948 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=13922 y=-970 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=19434 y=-1638 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=15194 y=-3976 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=10954 y=-4978 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=10742 y=-4310 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=20706 y=-4978 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=14770 y=-2640 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=9046 y=-2974 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=9682 y=-3308 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=17102 y=-5312 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=12014 y=-1638 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=15618 y=-1972 sky130_fd_pr__pfet_01v8
+x a_12262_720# a_12262_2068# a_11862_288# VSS s=59616,1140 d=59616,1140 l=1348 w=0 x=12262 y=720 sky130_fd_pr__res_xhigh_po_0p69
+x error-amplifier_1.VN a_20816_948# a_20638_330# VIN s=40600,1458 d=81200,2916 l=120 w=1400 x=21942 y=948 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=13922 y=-1304 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=21766 y=-4644 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=18374 y=-5646 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=13074 y=-1304 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=20918 y=-3308 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=11802 y=-5646 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=16042 y=-4644 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=20918 y=-970 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=9258 y=-1304 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=9894 y=-1972 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=17950 y=-4310 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=15830 y=-3976 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=16254 y=-970 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=21342 y=-970 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=14558 y=-5980 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=12862 y=-5312 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=11802 y=-970 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=19222 y=-1638 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=10742 y=-4978 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=10530 y=-4310 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=16890 y=-3642 sky130_fd_pr__pfet_01v8
+x a_17638_330# VSS a_17638_330# VSS s=6090,268 d=6090,268 l=120 w=210 x=18230 y=330 sky130_fd_pr__nfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=17738 y=-2974 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=9470 y=-3308 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=15406 y=-1972 sky130_fd_pr__pfet_01v8
+x error-amplifier_1.VP error-amplifier_0.IBIAS_5uA VSS VSS s=8700,416 d=4350,208 l=400 w=150 x=14138 y=5238 sky130_fd_pr__nfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=13710 y=-1304 sky130_fd_pr__pfet_01v8
+x a_17638_330# VSS a_17638_330# VSS s=6090,268 d=12180,536 l=120 w=210 x=18942 y=330 sky130_fd_pr__nfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=21554 y=-4644 sky130_fd_pr__pfet_01v8
+x error-amplifier_1.IBIAS_5uA a_20816_948# VIN VIN s=9570,388 d=9570,388 l=120 w=330 x=21764 y=3020 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=15194 y=-2306 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=18798 y=-2640 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=10318 y=-2974 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=10954 y=-3308 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=18162 y=-5646 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=9046 y=-1304 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=20706 y=-3308 sky130_fd_pr__pfet_01v8
+x error-amplifier_1.VP error-amplifier_0.IBIAS_5uA VSS VSS s=8700,416 d=4350,208 l=400 w=150 x=14138 y=5606 sky130_fd_pr__nfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=14982 y=-1638 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=9682 y=-1972 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=11378 y=-2640 sky130_fd_pr__pfet_01v8
+x OUT power-fet_0.B s=2012160,5704 l=1200 w=1200 x=20280 y=4160 sky130_fd_pr__cap_mim_m3_1
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=17950 y=-4978 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=14134 y=-970 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=20494 y=-3976 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=14346 y=-5980 sky130_fd_pr__pfet_01v8
+x error-amplifier_0.IBIAS_5uA VIN error-amplifier_0.IBIAS_5uA VIN s=9570,388 d=19140,776 l=120 w=330 x=18942 y=3020 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=19010 y=-1638 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=12650 y=-5312 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=8834 y=-5312 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=10530 y=-4978 sky130_fd_pr__pfet_01v8
+x error-amplifier_1.VP VSS error-amplifier_1.IBIAS_5uA VSS s=4350,208 d=4350,208 l=400 w=150 x=14596 y=6138 sky130_fd_pr__nfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=20918 y=-1972 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=19858 y=-3976 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=17526 y=-2974 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=15830 y=-2306 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=22190 y=-5980 sky130_fd_pr__pfet_01v8
+x a_11662_720# a_11262_2068# a_11662_288# VSS s=59616,1140 d=59616,1140 l=1348 w=0 x=11662 y=720 sky130_fd_pr__res_xhigh_po_0p69
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=11590 y=-4644 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=14558 y=-4310 sky130_fd_pr__pfet_01v8
+x a_11360_4862# a_11160_6210# a_11360_4430# VSS s=59616,1140 d=59616,1140 l=1348 w=0 x=11360 y=4862 sky130_fd_pr__res_xhigh_po_0p69
+x error-amplifier_1.VP VSS error-amplifier_1.IBIAS_5uA VSS s=4350,208 d=4350,208 l=400 w=150 x=14596 y=6506 sky130_fd_pr__nfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=12438 y=-3976 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=21342 y=-4644 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=18586 y=-2640 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=10106 y=-2974 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=10742 y=-3308 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=17738 y=-1304 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=14770 y=-1638 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=9470 y=-1972 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=11166 y=-2640 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=13498 y=-3642 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=12014 y=-970 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=20282 y=-3976 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=14134 y=-5980 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=10318 y=-1304 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=15618 y=-5646 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=10954 y=-1972 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=20706 y=-1972 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=19646 y=-3976 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=17314 y=-2974 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=17950 y=-3308 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=8834 y=-970 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=16678 y=-5312 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=14346 y=-4310 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=20494 y=-2306 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=9894 y=-5646 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=14558 y=-4978 sky130_fd_pr__pfet_01v8
+x a_20638_330# power-fet_0.B VSS VSS s=6090,268 d=6090,268 l=120 w=210 x=21052 y=330 sky130_fd_pr__nfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=12226 y=-3976 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=21130 y=-4644 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=18374 y=-2640 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=10530 y=-3308 sky130_fd_pr__pfet_01v8
+x a_11760_4862# a_11580_6210# a_11760_4430# VSS s=59616,1140 d=59616,1140 l=1348 w=0 x=11760 y=4862 sky130_fd_pr__res_xhigh_po_0p69
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=19858 y=-2306 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=11802 y=-2640 sky130_fd_pr__pfet_01v8
+x a_20638_330# power-fet_0.B VSS VSS s=6090,268 d=6090,268 l=120 w=210 x=21764 y=330 sky130_fd_pr__nfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=17526 y=-1304 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=13286 y=-3642 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=22190 y=-4310 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=20070 y=-3976 sky130_fd_pr__pfet_01v8
+x a_10062_720# a_9662_2068# a_10062_288# VSS s=59616,1140 d=59616,1140 l=1348 w=0 x=10062 y=720 sky130_fd_pr__res_xhigh_po_0p69
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=10106 y=-1304 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=12438 y=-2306 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=15406 y=-5646 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=18798 y=-1638 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=10742 y=-1972 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=19434 y=-3976 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=17102 y=-2974 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=16466 y=-5312 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=14134 y=-4310 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=11378 y=-1638 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=20282 y=-2306 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=9682 y=-5646 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=14346 y=-4978 sky130_fd_pr__pfet_01v8
+x error-amplifier_1.VP VSS error-amplifier_0.IBIAS_5uA VSS s=4350,208 d=8700,416 l=400 w=150 x=15512 y=5238 sky130_fd_pr__nfet_01v8
+x error-amplifier_1.VP VSS error-amplifier_1.VP VSS s=4350,208 d=4350,208 l=400 w=150 x=14599 y=4355 sky130_fd_pr__nfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=12014 y=-3976 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=18162 y=-2640 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=13922 y=-3642 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=19646 y=-2306 sky130_fd_pr__pfet_01v8
+x error-amplifier_1.VP VSS error-amplifier_0.IBIAS_5uA VSS s=4350,208 d=8700,416 l=400 w=150 x=15512 y=5606 sky130_fd_pr__nfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=17314 y=-1304 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=17950 y=-1972 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=13074 y=-3642 sky130_fd_pr__pfet_01v8
+x error-amplifier_1.VP VSS error-amplifier_1.VP VSS s=4350,208 d=4350,208 l=400 w=150 x=14599 y=4723 sky130_fd_pr__nfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=9258 y=-3642 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=20918 y=-5646 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=22190 y=-4978 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=12226 y=-2306 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=14558 y=-3308 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=14982 y=-970 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=12862 y=-2974 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=18586 y=-1638 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=10530 y=-1972 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=9046 y=-970 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=19222 y=-3976 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=21978 y=-5312 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=16890 y=-5980 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=16254 y=-5312 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=11166 y=-1638 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=20070 y=-2306 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=9470 y=-5646 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=14134 y=-4978 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=21978 y=-970 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=13710 y=-3642 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=19434 y=-2306 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=17102 y=-1304 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=10954 y=-5646 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=15194 y=-4644 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=9046 y=-3642 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=20706 y=-5646 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=12862 y=-970 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=12014 y=-2306 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=15618 y=-2640 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=14346 y=-3308 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=14982 y=-3976 sky130_fd_pr__pfet_01v8
+x error-amplifier_1.VP a_20816_948# power-fet_0.B VIN s=40600,1458 d=40600,1458 l=120 w=1400 x=20874 y=948 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=8834 y=-2974 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=12650 y=-2974 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=18374 y=-1638 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=21766 y=-5312 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=11802 y=-1638 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=19010 y=-3976 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=16042 y=-5312 sky130_fd_pr__pfet_01v8
+x a_10360_4862# a_10360_6210# a_10160_4430# VSS s=59616,1140 d=59616,1140 l=1348 w=0 x=10360 y=4862 sky130_fd_pr__res_xhigh_po_0p69
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=14558 y=-1972 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=9894 y=-2640 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=22190 y=-3308 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=12862 y=-1304 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=15830 y=-4644 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=19222 y=-2306 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=10742 y=-5646 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=15194 y=-970 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=19222 y=-970 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=20282 y=-970 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=17738 y=-3642 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=16890 y=-4310 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=10742 y=-970 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=15406 y=-2640 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=14134 y=-3308 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=14770 y=-3976 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=13498 y=-5980 sky130_fd_pr__pfet_01v8
+x a_17638_330# VSS error-amplifier_1.VN VSS s=6090,268 d=6090,268 l=120 w=210 x=17874 y=330 sky130_fd_pr__nfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=18162 y=-1638 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=21554 y=-5312 sky130_fd_pr__pfet_01v8
+x a_9462_720# error-amplifier_0.VN a_9462_288# VSS s=59616,1140 d=59616,1140 l=1348 w=0 x=9462 y=720 sky130_fd_pr__res_xhigh_po_0p69
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=10318 y=-3642 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=14346 y=-1972 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=9682 y=-2640 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=16678 y=-2974 sky130_fd_pr__pfet_01v8
+x error-amplifier_1.IBIAS_5uA VIN error-amplifier_1.IBIAS_5uA VIN s=9570,388 d=9570,388 l=120 w=330 x=21230 y=3020 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=14982 y=-2306 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=17950 y=-5646 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=8834 y=-1304 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=12650 y=-1304 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=20494 y=-4644 sky130_fd_pr__pfet_01v8
+x a_10760_4862# a_10760_6210# a_10560_4430# VSS s=59616,1140 d=59616,1140 l=1348 w=0 x=10760 y=4862 sky130_fd_pr__res_xhigh_po_0p69
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=19010 y=-2306 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=10530 y=-5646 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=13074 y=-970 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=17102 y=-970 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=20918 y=-2640 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=22190 y=-1972 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=17526 y=-3642 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=16890 y=-4978 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=19858 y=-4644 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=13286 y=-5980 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=11590 y=-5312 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=21342 y=-5312 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=12438 y=-4644 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=9894 y=-970 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=10106 y=-3642 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=16466 y=-2974 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=18798 y=-3976 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=14134 y=-1972 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=9470 y=-2640 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=15618 y=-1638 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=14770 y=-2306 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=13498 y=-4310 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=11378 y=-3976 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=20282 y=-4644 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=10954 y=-2640 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=13922 y=-5980 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=16678 y=-1304 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=20706 y=-2640 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=19646 y=-4644 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=9894 y=-1638 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=17314 y=-3642 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=13074 y=-5980 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=9258 y=-5980 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=14558 y=-5646 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=21978 y=-2974 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=21130 y=-5312 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=12226 y=-4644 sky130_fd_pr__pfet_01v8
+x a_12862_720# error-amplifier_0.VN a_12462_288# VSS s=59616,1140 d=59616,1140 l=1348 w=0 x=12862 y=720 sky130_fd_pr__res_xhigh_po_0p69
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=16254 y=-2974 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=18586 y=-3976 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=16890 y=-3308 sky130_fd_pr__pfet_01v8
+x a_20638_330# a_20638_330# VSS VSS s=12180,536 d=6090,268 l=120 w=210 x=20696 y=330 sky130_fd_pr__nfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=15406 y=-1638 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=13498 y=-4978 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=13286 y=-4310 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=11166 y=-3976 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=20070 y=-4644 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=18798 y=-2306 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=10742 y=-2640 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=13710 y=-5980 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=16466 y=-1304 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=19434 y=-4644 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=9682 y=-1638 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=17102 y=-3642 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=9046 y=-5980 sky130_fd_pr__pfet_01v8
+x a_20638_330# a_20638_330# VSS VSS s=6090,268 d=6090,268 l=120 w=210 x=21408 y=330 sky130_fd_pr__nfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=11378 y=-2306 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=14346 y=-5646 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=21766 y=-2974 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=12014 y=-4644 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=13922 y=-4310 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=20918 y=-1638 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=16042 y=-2974 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=11802 y=-3976 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=18374 y=-3976 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=17950 y=-2640 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=9258 y=-4310 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=22190 y=-5646 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=13286 y=-4978 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=13074 y=-4310 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=21978 y=-1304 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=12862 y=-3642 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=18586 y=-2306 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=10530 y=-2640 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=17950 y=-970 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=16254 y=-1304 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=19222 y=-4644 sky130_fd_pr__pfet_01v8
+x a_11262_720# a_11262_2068# a_10862_288# VSS s=59616,1140 d=59616,1140 l=1348 w=0 x=11262 y=720 sky130_fd_pr__res_xhigh_po_0p69
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=9470 y=-1638 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=16890 y=-1972 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=13498 y=-3308 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=11166 y=-2306 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=17738 y=-5980 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=14134 y=-5646 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=21554 y=-2974 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=10954 y=-1638 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=18162 y=-3976 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=13922 y=-4978 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=13710 y=-4310 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=20706 y=-1638 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=10318 y=-5980 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=15194 y=-5312 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=19858 y=-970 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=9046 y=-4310 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=13074 y=-4978 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=9258 y=-4978 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=14982 y=-4644 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=21766 y=-1304 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=12650 y=-3642 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=18374 y=-2306 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=8834 y=-3642 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=15830 y=-970 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=16042 y=-1304 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=11802 y=-2306 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=19010 y=-4644 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=13286 y=-3308 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=14558 y=-2640 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=11590 y=-2974 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=17526 y=-5980 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=21342 y=-2974 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=15830 y=-5312 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=10742 y=-1638 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=13710 y=-4978 sky130_fd_pr__pfet_01v8
+x error-amplifier_1.VP a_17816_948# error-amplifier_1.VN VIN s=40600,1458 d=40600,1458 l=120 w=1400 x=18586 y=948 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=10106 y=-5980 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=17738 y=-970 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=13498 y=-1972 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=9046 y=-4978 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=14770 y=-4644 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=17738 y=-4310 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=18162 y=-970 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=21554 y=-1304 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=15618 y=-3976 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=18162 y=-2306 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=13922 y=-3308 sky130_fd_pr__pfet_01v8
+x a_10662_720# a_10662_2068# a_10262_288# VSS s=59616,1140 d=59616,1140 l=1348 w=0 x=10662 y=720 sky130_fd_pr__res_xhigh_po_0p69
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=13710 y=-970 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=10318 y=-4310 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=17950 y=-1638 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=9258 y=-3308 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=13074 y=-3308 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=16678 y=-3642 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=14346 y=-2640 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=9894 y=-3976 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=17314 y=-5980 sky130_fd_pr__pfet_01v8
+x error-amplifier_1.VP error-amplifier_1.IBIAS_5uA VSS VSS s=8700,416 d=4350,208 l=400 w=150 x=14138 y=6138 sky130_fd_pr__nfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=21130 y=-2974 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=10530 y=-1638 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=20494 y=-5312 sky130_fd_pr__pfet_01v8
+x OUT error-amplifier_1.VN s=2012160,5704 l=1200 w=1200 x=16640 y=4160 sky130_fd_pr__cap_mim_m3_1
+x error-amplifier_1.VP error-amplifier_1.IBIAS_5uA VSS VSS s=8700,416 d=4350,208 l=400 w=150 x=14138 y=6506 sky130_fd_pr__nfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=15618 y=-970 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=20706 y=-970 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=13286 y=-1972 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=22190 y=-2640 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=16890 y=-5646 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=19858 y=-5312 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=11590 y=-1304 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=17738 y=-4978 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=17526 y=-4310 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=16042 y=-970 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=21130 y=-970 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=21342 y=-1304 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=15406 y=-3976 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=13710 y=-3308 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=12438 y=-5312 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=10106 y=-4310 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=10318 y=-4978 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=18798 y=-4644 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=9046 y=-3308 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=16466 y=-3642 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=14134 y=-2640 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=9682 y=-3976 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=17102 y=-5980 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=15618 y=-2306 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=11378 y=-4644 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=13922 y=-1972 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=20282 y=-5312 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=9258 y=-1972 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=13074 y=-1972 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=20918 y=-3976 sky130_fd_pr__pfet_01v8
+x OUT power-fet_0.B s=2012160,5704 l=1200 w=1200 x=22092 y=4160 sky130_fd_pr__cap_mim_m3_1
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=19646 y=-5312 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=14558 y=-1638 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=9894 y=-2306 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=17526 y=-4978 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=17314 y=-4310 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=21130 y=-1304 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=12226 y=-5312 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=21978 y=-3642 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=12862 y=-5980 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=10106 y=-4978 sky130_fd_pr__pfet_01v8
+x error-amplifier_0.IBIAS_5uA error-amplifier_0.IBIAS_5uA VIN VIN s=19140,776 d=9570,388 l=120 w=330 x=17696 y=3020 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=18586 y=-4644 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=16254 y=-3642 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=17738 y=-3308 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=9470 y=-3976 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=15406 y=-2306 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=13498 y=-5646 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=11166 y=-4644 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=13710 y=-1972 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=20070 y=-5312 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=10318 y=-3308 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=15194 y=-2974 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=10954 y=-3976 sky130_fd_pr__pfet_01v8
+x a_13160_4862# error-amplifier_1.VP a_12960_4430# VSS s=59616,1140 d=59616,1140 l=1348 w=0 x=13160 y=4862 sky130_fd_pr__res_xhigh_po_0p69
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=9046 y=-1972 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=20706 y=-3976 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=19434 y=-5312 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=14346 y=-1638 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=9682 y=-2306 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=17314 y=-4978 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=17102 y=-4310 sky130_fd_pr__pfet_01v8
+x a_9062_720# VSS VSS VSS s=59616,1140 l=1348 w=0 x=9062 y=720 sky130_fd_pr__res_xhigh_po_0p69
+x a_13062_720# VSS a_12662_288# VSS s=59616,1140 d=59616,1140 l=1348 w=0 x=13062 y=720 sky130_fd_pr__res_xhigh_po_0p69
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=12014 y=-5312 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=21766 y=-3642 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=8834 y=-5980 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=12650 y=-5980 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=18374 y=-4644 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=22190 y=-1638 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=20918 y=-2306 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=16042 y=-3642 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=11802 y=-4644 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=17526 y=-3308 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=13286 y=-5646 sky130_fd_pr__pfet_01v8
+x error-amplifier_1.VP VSS error-amplifier_1.IBIAS_5uA VSS s=4350,208 d=8700,416 l=400 w=150 x=15512 y=6138 sky130_fd_pr__nfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=15830 y=-2974 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=10106 y=-3308 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=12862 y=-4310 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=10742 y=-3976 sky130_fd_pr__pfet_01v8
+x error-amplifier_1.VP VSS error-amplifier_1.IBIAS_5uA VSS s=4350,208 d=8700,416 l=400 w=150 x=15512 y=6506 sky130_fd_pr__nfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=16890 y=-2640 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=19222 y=-5312 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=14134 y=-1638 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=17738 y=-1972 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=9470 y=-2306 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=17102 y=-4978 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=16890 y=-970 sky130_fd_pr__pfet_01v8
+x error-amplifier_0.VN a_17816_948# a_17638_330# VIN s=40600,1458 d=40600,1458 l=120 w=1400 x=18230 y=948 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=10318 y=-1972 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=21554 y=-3642 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=15194 y=-1304 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=10954 y=-2306 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=13922 y=-5646 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=18162 y=-4644 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=20706 y=-2306 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=17314 y=-3308 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=17950 y=-3976 sky130_fd_pr__pfet_01v8
+x power-fet_0.B VIN OUT VIN s=5684,312 d=5684,312 l=40 w=98 x=16678 y=-5980 sky130_fd_pr__pfet_01v8
+x power-fet_0.B OUT VIN VIN s=5684,312 d=5684,312 l=40 w=98 x=13074 y=-5646 sky130_fd_pr__pfet_01v8
+C error-amplifier_1.VP error-amplifier_1.VN 4.2
+C a_17816_948# error-amplifier_1.VN 5.9
+C VIN error-amplifier_1.VN 4.8
+C a_20816_948# a_20638_330# 7.4
+C VIN a_20638_330# 3.0
+C power-fet_0.B a_20638_330# 2.1
+C VIN OUT 234.6
+C error-amplifier_1.VP error-amplifier_1.IBIAS_5uA 3.2
+C error-amplifier_1.VP error-amplifier_0.IBIAS_5uA 3.4
+C VIN error-amplifier_1.IBIAS_5uA 4.8
+C VIN error-amplifier_0.IBIAS_5uA 4.9
+C VIN error-amplifier_1.VP 8.6
+C error-amplifier_1.VP error-amplifier_0.VN 2.6
+C power-fet_0.B OUT 91.9
+C VIN error-amplifier_0.VN 4.2
+C power-fet_0.B a_20816_948# 5.9
+C a_17638_330# a_17816_948# 7.4
+C VIN a_17638_330# 3.3
+C VIN power-fet_0.B 250.9
+C error-amplifier_1.VN OUT 17.1
+C error-amplifier_1.IBIAS_5uA error-amplifier_1.VN 3.8
+C OUT0 36.7
+R OUT 933710
+= OUT divider-feedback_0.A
+= OUT power-fet_0.A
+R VDD 113
+= VDD bias-network_0.VDD
+C VIN0 299.7
+R VIN 1111274
+= VIN error-amplifier_0.VIN
+= VIN error-amplifier_1.VIN
+= VIN power-fet_0.VIN
+R VSS 122116
+= VSS bias-network_0.VSS
+= VSS divider-feedback_0.VSS
+= VSS error-amplifier_0.VSS
+= VSS error-amplifier_1.VSS
+C power-fet_0.B0 46.0
+R power-fet_0.B 430137
+= power-fet_0.B error-amplifier_1.OUT
+C a_20638_330#0 5.8
+R a_20638_330# 21326
+C error-amplifier_1.VN0 9.2
+R error-amplifier_1.VN 15447
+= error-amplifier_1.VN error-amplifier_0.OUT
+C a_17638_330#0 5.3
+R a_17638_330# 21326
+R a_13262_720# 19536
+R a_13062_720# 19536
+R a_12862_720# 19536
+R a_12662_288# 254
+R a_12662_720# 19536
+R a_12462_288# 254
+R a_12462_720# 19536
+R a_12262_720# 19536
+R a_12262_2068# 254
+R a_12062_720# 19536
+R a_12062_2068# 255
+R a_11862_288# 254
+R a_11862_720# 19536
+R a_11662_288# 254
+R a_11662_720# 19536
+R a_11462_720# 19536
+R a_11462_2068# 254
+R a_11262_720# 19536
+R a_11262_2068# 255
+R a_11062_288# 254
+R a_11062_720# 19536
+R a_10862_288# 254
+R a_10862_720# 19536
+R a_10662_720# 19536
+R a_10662_2068# 254
+R a_10462_720# 19536
+R a_10462_2068# 255
+R a_10262_288# 254
+R a_10262_720# 19536
+R a_10062_288# 254
+R a_10062_720# 19536
+R a_9862_720# 19536
+R a_9862_2068# 254
+R a_9662_720# 19536
+R a_9662_2068# 255
+R a_9462_288# 254
+R a_9462_720# 19536
+C error-amplifier_0.VN0 7.1
+R error-amplifier_0.VN 3161
+= error-amplifier_0.VN divider-feedback_0.VFB
+R a_9262_288# 255
+R a_9262_720# 19536
+R a_9062_720# 19536
+R a_20816_948# 25729
+R a_17816_948# 25729
+C error-amplifier_0.IBIAS_5uA0 3.6
+R error-amplifier_0.IBIAS_5uA 11253
+= error-amplifier_0.IBIAS_5uA bias-network_0.IBIAS1
+C error-amplifier_1.IBIAS_5uA0 6.2
+R error-amplifier_1.IBIAS_5uA 11256
+= error-amplifier_1.IBIAS_5uA bias-network_0.IBIAS2
+R a_13400_4862# 19536
+R a_13160_4862# 19536
+C error-amplifier_1.VP0 32.9
+R error-amplifier_1.VP 19478
+= error-amplifier_1.VP bias-network_0.VREF
+= error-amplifier_1.VP error-amplifier_0.VP
+R a_12960_4430# 253
+R a_12960_4862# 19536
+R a_12760_4862# 19536
+R a_12760_6210# 253
+R a_12560_4430# 253
+R a_12560_4862# 19536
+R a_12360_4862# 19536
+R a_12360_6210# 253
+R a_12160_4430# 253
+R a_12160_4862# 19536
+R a_11980_4862# 19536
+R a_11980_6210# 253
+R a_11760_4430# 253
+R a_11760_4862# 19536
+R a_11580_4862# 19536
+R a_11580_6210# 253
+R a_11360_4430# 253
+R a_11360_4862# 19536
+R a_11160_4862# 19536
+R a_11160_6210# 253
+R a_10960_4430# 253
+R a_10960_4862# 19536
+R a_10760_4862# 19536
+R a_10760_6210# 253
+R a_10560_4430# 253
+R a_10560_4862# 19536
+R a_10360_4862# 19536
+R a_10360_6210# 253
+R a_10160_4430# 253
+R a_10160_4862# 19536
+R a_9960_4862# 19536
+R a_9960_6210# 253
+R a_9760_4430# 253
+R a_9760_4862# 19536
+R a_9560_4862# 19536
+R a_9560_6210# 253
+R a_9360_4430# 253
+R a_9360_4862# 19536
+R a_9100_4862# 19536

@@ -1,0 +1,21 @@
+* PSRR testbench - PEX LDO
+* AC stimulus on VIN (power input to pass FET); VDD held clean DC.
+* This measures PSRR from the dirty supply (VIN). If you also want PSRR
+* from VDD, swap the AC source to V_VDD.
+.lib /foss/pdks/sky130A/libs.tech/combined/sky130.lib.spice tt
+.include "ldo_flat.spice"
+
+V_GND VSS GND 0
+V_VIN VIN VSS DC 1.98 AC 1
+V_VDD VDD VSS DC 1.8
+I_LOAD OUT VSS 4m
+
+X_LDO OUT VIN VSS VDD ldo_flat
+
+.control
+ac dec 20 1 10G
+plot -20*log10(OUT/VIN)
+.endc
+
+.GLOBAL GND
+.end

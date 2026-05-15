@@ -1,0 +1,18 @@
+* Load-Line Regulation DC sweep - PEX LDO
+.lib /foss/pdks/sky130A/libs.tech/combined/sky130.lib.spice tt
+.include "ldo_flat.spice"
+
+V_GND VSS GND 0
+V_VIN VIN VSS DC 1.98
+V_VDD VDD VSS DC 1.8
+I_LOAD OUT VSS 4m
+
+X_LDO OUT VIN VSS VDD ldo_flat
+
+.control
+DC V_VIN 1.62 1.98 0.001
+plot OUT VIN
+.endc
+
+.GLOBAL GND
+.end

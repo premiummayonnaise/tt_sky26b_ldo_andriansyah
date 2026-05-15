@@ -54,13 +54,12 @@ C {code_shown.sym} 270 -270 0 0 {name=s2 only_toplevel=false value="
 
 
 "}
-C {isource.sym} 1850 -290 0 0 {name=I1 value="5m"}
+C {isource.sym} 1850 -290 0 0 {name=I1 value="4m"}
 C {lab_pin.sym} 1850 -260 0 0 {name=p12 sig_type=std_logic lab=VSS
 value=2.4u}
 C {lab_pin.sym} 1690 -230 0 1 {name=p17 sig_type=std_logic lab=VFB}
 C {sky130_fd_pr/cap_mim_m3_1.sym} 1130 -230 1 0 {name=C2 model=cap_mim_m3_1 W=6 L=6 MF=4 spiceprefix=X}
 C {sky130_fd_pr/cap_mim_m3_1.sym} 1500 -320 1 0 {name=C3 model=cap_mim_m3_1 W=6 L=6 MF=4 spiceprefix=X}
-C {error-amplifier.sym} 740 -370 0 0 {name=x3}
 C {sky130_fd_pr/res_xhigh_po_0p69.sym} 1690 -280 0 0 {name=R1
 L=6.9
 model=res_xhigh_po_0p69
@@ -93,7 +92,6 @@ sa=0 sb=0 sd=0
 model=pfet_01v8
 spiceprefix=X
 }
-C {error-amplifier.sym} 1230 -370 0 0 {name=x4}
 C {lab_pin.sym} 1080 -350 0 0 {name=p47 sig_type=std_logic lab=IBIAS2}
 C {lab_pin.sym} 1380 -350 0 1 {name=p48 sig_type=std_logic lab=VSS}
 C {lab_pin.sym} 1080 -390 0 0 {name=p49 sig_type=std_logic lab=VREF}
@@ -110,3 +108,5 @@ C {lab_pin.sym} 950 -550 0 1 {name=p22 sig_type=std_logic lab=IBIAS1}
 C {vsource.sym} 240 -600 0 0 {name=V8 value="dc 1.8" savecurrent=false}
 C {lab_pin.sym} 240 -570 0 0 {name=p23 sig_type=std_logic lab=VSS}
 C {lab_pin.sym} 240 -630 0 0 {name=p26 sig_type=std_logic lab=VDD}
+C {/foss/designs/2026/tt_sky26b_ldo_andriansyah/xschem/error-amplifier/error-amplifier.sym} 740 -370 0 0 {name=x2}
+C {/foss/designs/2026/tt_sky26b_ldo_andriansyah/xschem/error-amplifier/error-amplifier.sym} 1230 -370 0 0 {name=x3}

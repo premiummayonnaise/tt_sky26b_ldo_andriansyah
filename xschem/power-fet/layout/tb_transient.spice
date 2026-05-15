@@ -1,0 +1,32 @@
+* Line-Load Transient - PEX LDO
+* Two DUTs: load step (OUT1) and line step (OUT2)
+.lib /foss/pdks/sky130A/libs.tech/combined/sky130.lib.spice tt
+.include "ldo_flat.spice"
+
+V_GND VSS GND 0
+V_VDD VDD VSS DC 1.8
+
+* ---- Load step DUT ----
+V_VIN1 VIN1 VSS 1.98
+I1 OUT1 VSS PULSE(10u 4m 20u 2u 2u 100u 200u)
+X_LDO1 OUT1 VIN1 VSS VDD ldo_flat
+R5 VSS net8 100 m=1
+C5 OUT1 net5 4 m=1
+L2 net5 net8 1n m=1
+
+* ---- Line step DUT ----
+V_VIN2 VIN2 VSS PULSE(1.62 1.98 20u 5u 5u 100u 200u)
+I4 OUT2 VSS 4m
+X_LDO2 OUT2 VIN2 VSS VDD ldo_flat
+R6 VSS net7 100 m=1
+C6 OUT2 net6 4 m=1
+L3 net6 net7 1n m=1
+
+.control
+tran 50n 400u
+plot OUT1
+plot OUT2 VIN2
+.endc
+
+.GLOBAL GND
+.end
