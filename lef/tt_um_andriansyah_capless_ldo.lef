@@ -37,7 +37,7 @@ MACRO tt_um_andriansyah_capless_ldo
   PIN ua[0]
     DIRECTION INOUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 200.742996 ;
+    ANTENNADIFFAREA 326.574890 ;
     PORT
       LAYER met4 ;
         RECT 151.810 0.000 152.710 1.000 ;
@@ -478,13 +478,13 @@ MACRO tt_um_andriansyah_capless_ldo
   END VGND
   OBS
       LAYER nwell ;
-        RECT 70.000 19.500 147.000 91.000 ;
+        RECT 67.230 19.495 150.000 91.000 ;
       LAYER li1 ;
-        RECT 72.000 22.650 146.000 91.000 ;
+        RECT 71.120 22.000 150.000 91.000 ;
       LAYER met1 ;
-        RECT 66.000 13.370 146.000 102.000 ;
+        RECT 66.000 13.370 149.000 102.000 ;
       LAYER met2 ;
-        RECT 55.000 6.000 146.000 102.000 ;
+        RECT 55.000 5.980 146.000 102.000 ;
       LAYER met3 ;
         RECT 1.000 6.000 152.710 102.000 ;
       LAYER met4 ;
