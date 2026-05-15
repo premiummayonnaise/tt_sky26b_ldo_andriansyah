@@ -478,11 +478,11 @@ MACRO tt_um_andriansyah_capless_ldo
   END VGND
   OBS
       LAYER nwell ;
-        RECT 72.000 24.000 143.130 91.000 ;
+        RECT 70.000 19.500 147.000 91.000 ;
       LAYER li1 ;
-        RECT 72.000 24.280 146.000 91.000 ;
+        RECT 72.000 22.650 146.000 91.000 ;
       LAYER met1 ;
-        RECT 66.000 15.000 146.000 102.000 ;
+        RECT 66.000 13.370 146.000 102.000 ;
       LAYER met2 ;
         RECT 55.000 6.000 146.000 102.000 ;
       LAYER met3 ;
